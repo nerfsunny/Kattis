@@ -1,0 +1,6 @@
+#File to tell repository to ignore all files except the source file
+
+#Java
+*.class
+
+
