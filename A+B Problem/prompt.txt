@@ -1,0 +1,39 @@
+Given 𝑁 integers in the range [−50000,50000], how many ways are there to pick three integers 𝑎𝑖, 𝑎𝑗, 𝑎𝑘, such that 𝑖, 𝑗, 𝑘 are pairwise distinct and 𝑎𝑖 + 𝑎𝑗 =𝑎k? Two ways are different if they’re ordered triples (𝑖,𝑗,𝑘) of indices are different.
+
+Input
+
+The first line of input consists of a single integer 𝑁
+(1 ≤ 𝑁 ≤ 200000). The next line consists of 𝑁 space-separated integers 𝑎₁, 𝑎₂, …, 𝑎𝑁.
+
+Input
+
+Output an integer representing the number of ways.
+
+Output
+
+Output an integer representing the number of ways.
+
+Sample Input 1 	Sample Output 1
+
+4               4
+1 2 3 4
+
+Sample Input 2 	Sample Output 2
+
+6               10
+1 1 3 3 4 6
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/aplusb
+
+Problem ID: aplusb
+
+CPU Time limit: 4 seconds
+
+Memory limit: 1024 MB
+
+Difficulty: 8.2
