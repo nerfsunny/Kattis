@@ -3,4 +3,7 @@
 #Java
 *.class
 
+#Other Files
+*.ans
+*.in
 
