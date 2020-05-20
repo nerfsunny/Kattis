@@ -1,9 +1,15 @@
-#File to tell repository to ignore all files except the source file
+#File to tell repository to ignore all files extensions listed 
 
 #Java
 *.class
 
+#C++
+*.exe
+*.out
+*.app
+
 #Other Files
 *.ans
 *.in
+.DS_Store
 
