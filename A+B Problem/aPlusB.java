@@ -3,16 +3,24 @@ import java.lang.*;
 import java.io.*;
 
 public class aPlusB {
-	public static int numberOfInstances(int[] array, int value) {
+	/*
+	Checks the array to determine how many instances it has of the passed value. After traversing the array, it returns the count. 
+	If the array does not contain any instance of the value, then it returns 0.
+	*/
+	public static int numberOfInstances(long[] array, long value) {
 		int count = 0;
 
-		for(int i : array)
+		for(long i : array)
 			if(i == value)
 				count++;
 
 		return count;
 	}
 
+	/*
+	Checks the ArrayList to determine if it already contains a copy of a tripleIndices object. It uses the object's equals method to determine they are equal or not. 
+	If the ArrayList already contains a copy of the object, then it returns true. Otherwise, it returns false.
+	*/
 	public static boolean containsValue(ArrayList<tripleIndices> list, tripleIndices triplet) {
 		for(tripleIndices trip : list)
 			if(trip.equals(triplet))
@@ -22,38 +30,33 @@ public class aPlusB {
 	}
 
 	public static void main(String[] args) {
-		int[] valueSet = null;
-		String[] tempValueSet = null;
+		long[] valueSet = null;
 		int inputSize = 0;
 		ArrayList<tripleIndices> list = new ArrayList<tripleIndices>();
 		tripleIndices triplet;
 
-		try{
-			File inputFile = new File(args[0]);
-			Scanner read = new Scanner(inputFile);
+		Scanner read = new Scanner(System.in);
 
-			inputSize = Integer.parseInt(read.nextLine());
-			tempValueSet = read.nextLine().split(" ");
+		inputSize = read.nextInt();
 
-			read.close();			
-		}catch(FileNotFoundException e) {
-			System.out.println(e.getMessage());
-			e.printStackTrace();
+		valueSet = new long[inputSize];
+		int index = 0;
+
+		while(read.hasNextLong() && index < inputSize) {
+			valueSet[index] = read.nextLong();
+			index++;
 		}
 
-		valueSet = new int[inputSize];
-
-		for(int i = 0; i < inputSize; i++)
-			valueSet[i] = Integer.parseInt(tempValueSet[i]);
+		read.close();
 
 		boolean condition = false;
 
-		for(int i : valueSet) {
-			for(int j : valueSet) {
+		for(long i : valueSet) {
+			for(long j : valueSet) {
 				condition = false;
-				int k = i + j;
+				long k = i + j;
 
-				for(int x : valueSet)
+				for(long x : valueSet)
 					if(x == k)
 						condition = true;
 
@@ -74,28 +77,28 @@ public class aPlusB {
 }
 
 class tripleIndices {
-	private int i, j, k;
+	private long i, j, k;
 
 	//Empty constructor
 	public tripleIndices() {
 
 	}
 
-	public tripleIndices(int i, int j, int k) {
+	public tripleIndices(long i, long j, long k) {
 		this.i = i;
 		this.j = j;
 		this.k = k;
 	}
 
-	public int getI() {
+	public long getI() {
 		return i;
 	}
 
-	public int getJ() {
+	public long getJ() {
 		return j;
 	}
 
-	public int getK() {
+	public long getK() {
 		return k;
 	}
 
@@ -114,6 +117,6 @@ class tripleIndices {
 
 	@Override
 	public String toString() {
-		return Integer.toString(i) + " " + Integer.toString(j) + " " + Integer.toString(k);
+		return Long.toString(i) + " " + Long.toString(j) + " " + Long.toString(k);
 	}
 }
