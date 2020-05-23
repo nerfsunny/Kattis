@@ -3,11 +3,12 @@
 #include <vector>
 
 using namespace std;
+using llong = unsigned long long int;
 
-long convertFromBase8ToBase10(const long input) {
-	long number = input;
-	long result = 0;
-	long value = 0;
+llong convertFromBase8ToBase10(const llong input) {
+	llong number = input;
+	llong result = 0;
+	llong value = 0;
 	int power = 0;
 
 	while(number > 0) {
@@ -15,35 +16,50 @@ long convertFromBase8ToBase10(const long input) {
 		result = result + value;
 		number = number/10;
 		power++;
+
+		cout << "Value: " << value << " Result: " << result << " Number: " << number << " Power: " << power - 1 << endl;
 	}
 
 	return result;
 }
 
-string convertFromBase10ToBase16(const long input, vector<string>& vec) {
+string convertFromBase10ToBase16(const llong input, vector<string>& vec) {
 	string result = "";
-	long number = input;
-	long value = 0;
+	llong number = input;
+	llong value = 0;
 
 	while(number > 0) {
 		value = number % 16;
 		number = number/16;
 		result = vec.at(value) + result;
 
-		//cout << "Remainder: " << value << " Value: " << number << " Hexadecimal: " << result << endl; 
+		cout << "Remainder: " << value << " Value: " << number << " Hexadecimal: " << vec.at(value) << " Result: " << result << endl; 
 	}
 
 	return result;
 }
 
 int main(int argc, char** argv) {
-	long number = 0;
+	llong number = 0;
 	vector<string> hex = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
 
 	cin >> number;
 
+	cout << number << endl;
 	//cout << convertFromBase8ToBase10(number) << endl;
-	cout << convertFromBase10ToBase16(convertFromBase8ToBase10(number), hex) << endl;
+	llong temp = convertFromBase8ToBase10(number);
+	cout << temp << endl;
+	string hexNumber = convertFromBase10ToBase16(temp, hex);
+
+	while(true) {
+		if(hexNumber[0] != '0')
+			break;
+
+		if(hexNumber[0] == '0')
+			hexNumber = hexNumber.substr(1);
+	}
+
+	cout << hexNumber << endl;
 
 	return 0;
 }
