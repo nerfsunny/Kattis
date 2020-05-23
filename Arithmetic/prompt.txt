@@ -14,7 +14,7 @@ Output the same integer, written in base 16. The output must not include any ext
 
 Sample Input 1 	   Sample Output 1
 
-4444.              924
+4444               924
 
 Sample Input 2 	   Sample Output 2
 
