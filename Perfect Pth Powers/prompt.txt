@@ -1,0 +1,31 @@
+We say that 𝑥 is a perfect square if, for some integer 𝑏, 𝑥=𝑏2. Similarly, 𝑥 is a perfect cube if, for some integer 𝑏, 𝑥=𝑏3. More generally, 𝑥 is a perfect 𝑝th power if, for some integer 𝑏, 𝑥=𝑏𝑝. Given an integer 𝑥 you are to determine the largest integer 𝑝 such that 𝑥 is a perfect 𝑝th power.
+
+Input
+
+Each test case is given by a line of input containing 𝑥. The value of 𝑥 will have magnitude at least 2 and be within the range of a (32-bit) int in C, C++, and Java. A line containing 0 follows the last test case.
+
+Output
+
+For each test case, output a line giving the largest integer 𝑝 such that 𝑥 is a perfect 𝑝th power.
+
+Sample Input 1 	Sample Output 1
+
+17              1
+1073741824      30
+25              2
+0
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/perfectpowers
+
+Problem ID: perfectpowers
+
+CPU Time limit: 1 seconds
+
+Memory limit: 1024 MB
+
+Difficulty: 5.4
