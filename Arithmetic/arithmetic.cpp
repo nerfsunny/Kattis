@@ -3,9 +3,11 @@
 #include <vector>
 
 using namespace std;
-using llong = unsigned long long int;
+//using llong = unsigned long long int;
 
-llong convertFromBase8ToBase10(const llong input) {
+using llong = long double;
+
+/*llong convertFromBase8ToBase10(const llong input) {
 	llong number = input;
 	llong result = 0;
 	llong value = 0;
@@ -21,9 +23,27 @@ llong convertFromBase8ToBase10(const llong input) {
 	}
 
 	return result;
+}*/
+
+llong convertFromBase8ToBase10(const string input) {
+	string number = input;
+	llong value;
+	llong result = 0;
+	llong power = 0;
+
+	while(number.length() > 0) {
+		value = stoi(number.substr(number.length() - 1, 1)) * pow(8, power);
+		result = result + value;
+		number = number.substr(0, number.length() - 1);
+		power++;
+
+		cout << "Value: " << value << " Result: " << result << " Number: " << number << " Power: " << power - 1 << endl;
+	}
+
+	return result;
 }
 
-string convertFromBase10ToBase16(const llong input, vector<string>& vec) {
+/*string convertFromBase10ToBase16(const llong input, vector<string>& vec) {
 	string result = "";
 	llong number = input;
 	llong value = 0;
@@ -37,10 +57,27 @@ string convertFromBase10ToBase16(const llong input, vector<string>& vec) {
 	}
 
 	return result;
+}*/
+
+string convertFromBase10ToBase16(const llong input, vector<string>& vec) {
+	string result = "";
+	llong number = input;
+	llong value = 0;
+
+	while(number > 0) {
+		value = fmod(number, 16);
+		number = floor(number/16);
+		result = vec.at(value) + result;
+
+		cout << "Remainder: " << value << " Value: " << number << " Hexadecimal: " << vec.at(value) << " Result: " << result << endl; 
+	}
+
+	return result;
 }
 
 int main(int argc, char** argv) {
-	llong number = 0;
+	//llong number = 0;
+	string number;
 	vector<string> hex = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
 
 	cin >> number;
@@ -59,6 +96,7 @@ int main(int argc, char** argv) {
 			hexNumber = hexNumber.substr(1);
 	}
 
+	//Outputs converted number to console
 	cout << hexNumber << endl;
 
 	return 0;
