@@ -1,0 +1,43 @@
+Your favourite social media website is changing their policy on login password validation: a slight error when logging in is now acceptable! In particular, assuming the password you chose when creating the account is 𝑆, a password 𝑃 entered while logging in will be accepted if any of the following conditions are met:
+	𝑃 and 𝑆 are identical;
+	𝑆 can be formed from 𝑃 by prepending a single digit (0–9);
+	𝑆 can be formed from 𝑃 by appending a single digit;
+	𝑆 is equal to 𝑃 after reversing the case of all letters in 𝑃.
+
+To reverse the case of a string, replace all uppercase letters with their equivalent lowercase letters, and all lowercase letters with their equivalent uppercase letters, while leaving all other characters the same. For example, the case-reversal of pa55WORD is PA55word.
+
+Any other attempted password 𝑃 will be rejected. So for example, if 𝑆 is c0deninja5, then c0deninja will be accepted, but not C0deninja5 or c0deninja51.
+
+Write a program which, given alphanumeric strings 𝑆 and 𝑃, determines whether 𝑃 should be accepted.
+
+Input
+
+The first line of the input is the string 𝑆, the stored password, and the second line of input is the password 𝑃 that a user has entered while attempting to log in. Each string consists of only digits 0–9, lowercase letters a–z, and uppercase letters A–Z. The strings won’t contain spaces or any other extraneous characters, and will each contain at least one and at most 101 characters.
+
+Output
+
+Print Yes if 𝑃 should be accepted according to the above rules, and No otherwise.
+
+Sample Input 1 	Sample Output 1
+
+123             No
+123a
+
+Sample Input 2 	Sample Output 2
+
+abc             No
+ABC
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/softpasswords
+
+Problem ID: softpasswords
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.1
