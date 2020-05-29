@@ -1,0 +1,52 @@
+Sweet Apple Acres has been infested by evil fruit-hungry bats! The Apple family has called for Twilight Sparkle’s help to get rid of them.
+
+Twilight needs to use a powerful spell to eliminate the threat the bats pose. Poring through the volumes of magic books, she found an ancient spell by the legendary Star Swirl the Bearded that, if executed, can increase her power enough to drive the bats out.
+This spell has 𝑀 steps, which must be performed in order. Each step is either:
+	•	a + step, which adds 1 to the power of the caster, or
+	•	a x step, which multiplies the power of the caster by 2
+
+Twilight starts with power 1. Unfortunately, since Twilight is not very strong, the power that she can actually discharge is limited by her strength 𝑆.  If she has power 𝑝, the amount of power she can discharge is equal to the remainder after dividing 𝑝 by 2S.
+
+It is therefore clear that the amount of power she has is not necessarily equal to the amount of power she can actually discharge. She wants to maximize the amount of power she can discharge; to this end, she realized that she can transform some—possibly none, possibly all—of the steps in the spell into no-op o steps, which do not affect her power.
+
+Which steps should she turn into no-op steps to maximize the amount of power she can discharge?
+
+Input
+
+The first line of input contains two integers, 𝑀 (1 ≤ 𝑀 ≤ 106) and 𝑆 (1 ≤ 𝑆 ≤ 109), the number of steps in the spells and Twilight’s strength.
+The second line of input contains a string of 𝑀 characters. In particular, the 𝑖th of these characters is either + or x, the type of the 𝑖th step.
+
+Output
+
+Output on a line by itself the same string with some—possibly none, possibly all—of the characters replaced with o, representing a way of replacing some steps with no-ops that maximizes the amount of power she can discharge.
+If there are multiple correct answers, you can output any of them.
+
+Sample Input 1 	   Sample Output 1
+
+8 3                ++xx+o++
+++xx+x++ 
+
+Sample Input 2 	   Sample Output 2
+
+8 3                xxoooooo
+xxxxxxxx
+
+Sample Input 3 	   Sample Output 3
+
+10 1               oooooooooo
+xx+x+x++xx
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/bats
+
+Problem ID: bats
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 7.4
