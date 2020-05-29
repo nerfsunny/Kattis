@@ -18,6 +18,7 @@ public class readMeScript {
 
 		System.IO.StreamWriter outputFile = new System.IO.StreamWriter("ReadMe.md");
 
+		outputFile.WriteLine("This repository contains my attempt at solving programming problems I find online. Below there is a table that contains the problem name, the status of the problem and what language(s) it is completed in.\n");
 		outputFile.WriteLine(header);
 		outputFile.WriteLine("------------ | ------------ | ------------ | ------------");
 
