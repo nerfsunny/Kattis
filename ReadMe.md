@@ -1,9 +1,12 @@
+This repository contains my attempt at solving programming problems I find online. Below there is a table that contains the problem name, the status of the problem and what language(s) it is completed in.
+
 Problem | Status | Source | Languages(s)
 ------------ | ------------ | ------------ | ------------
 3D Printed Statues | Completed | Kattis | C++
 A + B | In Progress | Kattis | Java
 Arithmetic | In Progress | Kattis | C++
 Bats! | Planned | Kattis | N/A
+Catch Me If You Can | Completed | Kattis | N/A
 Game Rank | In Progress | Kattis | C++
 Lost in Translation | Planned | Kattis | N/A
 Packing Stacks of Boxes | Planned | Reddit | N/A
