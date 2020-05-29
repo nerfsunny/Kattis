@@ -6,10 +6,9 @@ Problem | Status | Source | Languages(s)
 A + B | In Progress | Kattis | Java
 Arithmetic | In Progress | Kattis | C++
 Bats! | Planned | Kattis | N/A
-Catch Me If You Can | Completed | Kattis | N/A
 Game Rank | In Progress | Kattis | C++
 Lost in Translation | Planned | Kattis | N/A
 Packing Stacks of Boxes | Planned | Reddit | N/A
 Perfect Pth Power | Planned | Kattis | N/A
-Soft Passwords| Completed | Kattis | Java
+Soft Passwords | Completed | Kattis | Java
 Word Hyphenation by Computer | Planned | Reddit | N/A
