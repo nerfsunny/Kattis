@@ -1,4 +1,4 @@
-This repository contains my attempt at solving programming problems I find online. Below there is a table that contains the problem name, the status of the problem and what language(s) it is completed in.
+This repository contains my attempt at solving programming problems I find online. Below there is a table that contains the problem name, the status of the problem, where the problem was found and what language(s) it is completed in.
 
 Problem | Status | Source | Languages(s)
 ------------ | ------------ | ------------ | ------------
@@ -6,6 +6,7 @@ Problem | Status | Source | Languages(s)
 A + B | In Progress | Kattis | Java
 Arithmetic | In Progress | Kattis | C++
 Bats! | Planned | Kattis | N/A
+Combination Lock | In Progress | Kattis | N/A
 Game Rank | In Progress | Kattis | C++
 Lost in Translation | Planned | Kattis | N/A
 Packing Stacks of Boxes | Planned | Reddit | N/A
