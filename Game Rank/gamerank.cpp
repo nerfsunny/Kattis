@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <string>
 #include <unordered_map>
 
 using namespace std;
@@ -42,36 +42,41 @@ int main(int argc, char** argv) {
 			if(combo >= 3 && rank > 5) 
 				numberOfStars++;
 
-			if(rank <= 5)
-				combo++;
-
-			if(numberOfStars > valueTable[rank]) {
+			if(numberOfStars > valueTable[rank] && rank != 0) {
 				numberOfStars = numberOfStars - valueTable[rank];
 				rank--;
 			}
 
-			//cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
+			cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
 		}else {
 			combo = 0;
 
-			if((rank > 20 && rank <= 25) || rank == 0) {
-				//cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
+			if(rank > 20 && rank <= 25) {
+				cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
+				continue;
+			}
+
+			if(rank == 0) {
+                if(numberOfStars == 0)
+                    continue;
+
+				numberOfStars--;
+				cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
 				continue;
 			}
 
 			if(numberOfStars == 0) {
 				if(rank == 20) {
-					//cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
+					cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
 					continue;
-				}
-				else{
+				}else {
 					numberOfStars = valueTable[rank] - 1;
 					rank++;
 				}
 			}else
 				numberOfStars--;
 
-			//cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
+            cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
 		}
 	}
 
