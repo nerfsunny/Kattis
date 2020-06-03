@@ -6,8 +6,9 @@ Problem | Status | Source | Languages(s)
 A + B | In Progress | Kattis | Java
 Arithmetic | In Progress | Kattis | C++
 Bats! | Planned | Kattis | N/A
-Combination Lock | In Progress | Kattis | N/A
+Combination Lock | In Progress | Kattis | C++
 Game Rank | In Progress | Kattis | C++
+Guessing Game | In Progress | Kattis | C++
 Lost in Translation | Planned | Kattis | N/A
 Packing Stacks of Boxes | Planned | Reddit | N/A
 Perfect Pth Power | Planned | Kattis | N/A
