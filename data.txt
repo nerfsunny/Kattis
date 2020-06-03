@@ -9,4 +9,5 @@ Packing Stacks of Boxes | Planned | Reddit | N/A
 Perfect Pth Power | Planned | Kattis | N/A
 Soft Passwords | Completed | Kattis | Java
 Word Hyphenation by Computer | Planned | Reddit | N/A
-Combination Lock | In Progress | Kattis | N/A
+Combination Lock | In Progress | Kattis | C++
+Guessing Game | In Progress | Kattis | C++
