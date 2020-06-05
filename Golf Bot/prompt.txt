@@ -1,0 +1,58 @@
+Do you like golf? I hate it. I hate golf so much that I decided to build the ultimate golf robot, a robot that will never miss a shot. I simply place it over the ball, choose the right direction and distance and, flawlessly, it will strike the ball across the air and into the hole. Golf will never be played again.
+
+Unfortunately, it doesn’t work as planned. So, here I am, standing in the green and preparing my first strike when I realize that the distance-selector knob built-in doesn’t have all the distance options! Not everything is lost, as I have 2 shots.
+
+Task
+
+Given my current robot, how many holes will I be able to complete in 2 strokes or less?
+
+Input 
+
+The first line has one integer: 𝑁, the number of different distances the Golf Bot can shoot. Each of the following 𝑁 lines has one integer, 𝑘𝑖, the distance marked in position 𝑖 of the knob.
+
+Next line has one integer: 𝑀, the number of holes in this course. Each of the following 𝑀 lines has one integer, 𝑑𝑗, the distance from Golf Bot to hole 𝑗.
+
+Constraints
+
+1≤𝑁,𝑀≤200000
+1≤𝑘𝑖,𝑑𝑗≤200000
+
+Output
+
+You should output a single integer, the number of holes Golf Bot will be able to complete. Golf Bot cannot shoot over a hole on purpose and then shoot backwards.
+
+Sample Output and Explanation
+
+Golf Bot can shoot 3 different distances (1, 3 and 5) and there are 6 holes in this course at distances 2, 4, 5, 7, 8 and 9. Golf Bot will be able to put the ball in 4 of these:
+	• The 1𝑠𝑡 hole, at distance 2, can be reached by striking two times a distance of 1.
+	• The 2𝑛𝑑 hole, at distance 4, can be reached by striking with strength 3 and then strength 1 (or vice-versa).
+	• The 3𝑟𝑑 hole can be reached with just one stroke of strength 5.
+	• The 5𝑡ℎ hole can be reached with two strikes of strengths 3 and 5.
+
+Sample Input 1                Sample Output 1
+3                             4
+1
+3
+5
+6
+2
+4
+5
+7
+8
+9
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/golfbot
+
+Problem ID: golfbot
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 6.7
