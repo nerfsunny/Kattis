@@ -8,7 +8,7 @@ Arithmetic | In Progress | Kattis | C++
 Bats! | Planned | Kattis | N/A
 Combination Lock | In Progress | Kattis | C++
 Game Rank | In Progress | Kattis | C++
-Guessing Game | Complete | Kattis | C++
+Guessing Game | Completed | Kattis | C++
 Lost in Translation | Planned | Kattis | N/A
 Packing Stacks of Boxes | Planned | Reddit | N/A
 Perfect Pth Power | Planned | Kattis | N/A
