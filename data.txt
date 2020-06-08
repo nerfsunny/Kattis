@@ -11,3 +11,6 @@ Soft Passwords | Completed | Kattis | Java
 Word Hyphenation by Computer | Planned | Reddit | N/A
 Combination Lock | In Progress | Kattis | C++
 Guessing Game | Completed | Kattis | C++
+Golf Bot | In Progress | Kattis | C++
+Primary Arithmetic | Completed | Kattis | C++
+Playfair Cipher | In Progress | Kattis | C++
