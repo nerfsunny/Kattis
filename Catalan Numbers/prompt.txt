@@ -1,0 +1,31 @@
+Input 
+
+The first line of input consists of an integer 𝑞, where 1≤𝑞≤1000. Then follow 𝑞 lines, each containing an integer 𝑥 where 1≤𝑥≤5000.
+
+Output
+
+Then for each query 𝑥, output a line containing 𝐶𝑥, the 𝑥:th Catalan number.
+
+Sample Input 1        Sample Output 1
+6                     1
+1                     2
+2                     5
+3                     14
+4                     42
+5                     1978261657756160653623774456
+50
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/catalan
+
+Problem ID: catalan
+
+CPU Time limit: 2 second
+
+Memory limit: 1024 MB
+
+Difficulty: 3.7
