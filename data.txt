@@ -13,4 +13,5 @@ Combination Lock | In Progress | Kattis | C++
 Guessing Game | Completed | Kattis | C++
 Golf Bot | In Progress | Kattis | C++
 Primary Arithmetic | Completed | Kattis | C++
-Playfair Cipher | In Progress | Kattis | C++
+Playfair Cipher | Completed | Kattis | C++
+Catalan Numbers | In Progress | Kattis | C++
