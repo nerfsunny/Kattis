@@ -1,0 +1,52 @@
+The Japanese game of Shiritori is the perfect 2-player game for a long car ride. The rules are simple: the first player picks any word to say, then the second player must choose a new word that begins with the last letter of the word that the first player just said. Then it is the first player’s turn again to say a word that begins with the last letter of the previous word the second player said, and so on. At each turn, the player whose turn it is must say a word that links to the previous one and which has not been called out before during the game. Your job is to determine if the game was played according to these rules, given a history of the words used in a particular game. In a game, player 1 always starts first.
+
+Input
+
+Input consists of one test case that begins with an integer 𝑁 (2≤𝑁≤100000) on a single line. Each of the following 𝑁 lines contains 1 word. The words are presented in the order in which the players called them out, starting with player 1. All words consist of between 1 and 120 lowercase English letters.
+
+Output
+
+If the game was played according to the rules, output “Fair Game”. Otherwise, find out which player first violated the rules of the game. That player lost the game, so output “Player <i> lost”. For example, if player 1 violated the rules first, output “Player 1 lost”.
+
+Sample Input 1            Sample Output 1
+5                         Fair Game
+apple
+ear
+real
+letters
+style
+
+Sample Input 2            Sample Output 2
+3                         Player 1 lost
+apple
+extra
+apple
+
+Sample Input 3            Sample Output 3
+2                         Player 2 lost
+2
+apple
+neat
+
+Sample Input 2            Sample Output 2
+5                         Player 1 lost
+apple
+east
+team
+meat
+team
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/shiritori
+
+Problem ID: shiritori
+
+CPU Time limit: 2 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.8
