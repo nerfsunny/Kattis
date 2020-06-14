@@ -62,7 +62,7 @@ public class readMeScript {
 
 		outputFile.WriteLine("## Complete Problem List");
 		outputFile.WriteLine(header);
-		outputFile.Write("------------ | ------------ | ------------ | ------------");
+		outputFile.WriteLine("------------ | ------------ | ------------ | ------------");
 
 		//Sorts the lines in alphabetical order
 		lines.Sort();
