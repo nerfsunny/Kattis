@@ -1,0 +1,31 @@
+Lukáš invented a special cryptographic algorithm. He can not tell you the details, of course. However, there is one problem. He doesn’t know how to select strong keys for messages. Can you help him?
+
+Suppose that a message is a positive integer 𝑁. The strongest key is an integer 𝐾 such that 𝑁 written in base 𝐾 has the most zeros at the end. In case of a tie, the smallest such 𝐾 is the strongest.
+
+For example, the strongest key for 𝑁=72 is 𝐾=2, because 72=10010002 (72 written in base 2) has 3 zeros at the end. Using base 3, we only get 2 zeroes at the end (because 72=22003), using base 6 would also give us 2 zeros, and no other base would give us more than 1 zero.
+
+Input
+
+Input contains one line with one integer 𝑁, 2≤𝑁≤10^12.
+
+Output
+
+Output contains one line with one integer 𝐾 such that 𝑁 written in base 𝐾 has the most zeros at the end and is the smallest 𝐾 with this property.
+
+Sample Input 1 	            Sample Output 1
+72                          2
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/crypto
+
+Problem ID: crypto
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 3.7
