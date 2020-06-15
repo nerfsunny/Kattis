@@ -1,52 +1,68 @@
 #include <iostream>
 #include <vector>
-#include <unordered_map>
+#include <set>
 #include <algorithm>
 
 using namespace std;
 
 int main(int argc, char** argv) {
-	vector<int> shotDistance;
-	vector<int> courseLength;
+	//vector<int> shotDistance;
+	//vector<int> courseLength;
+	set<int> shotDistance;
+	set<int> courseLength;
 
 	int shotDistanceInput, courseLengthInput, input;
 	int numberOfHoles = 0;
 
 	cin >> shotDistanceInput;
+	//shotDistance.reserve(shotDistanceInput);
 
 	for(int i = 0; i < shotDistanceInput; i++) {
 		cin >> input;
-		shotDistance.push_back(input);
+		//shotDistance.emplace_back(input);
+		shotDistance.insert(input);
 	}
 
 	cin >> courseLengthInput;
+	//courseLength.reserve(courseLengthInput);
 
 	for(int i = 0; i < courseLengthInput; i++) {
 		cin >> input;
-		courseLength.push_back(input);
+		//courseLength.emplace_back(input);
+		courseLength.insert(input);
 	}
 
-	//sort(shotDistance.begin(), shotDistance.end());
-	//sort(courseLength.begin(), courseLength.end());
+	auto begin = shotDistance.begin();
+	auto end = shotDistance.end();
 
-	for(int x : courseLength) {
-		if(binary_search(shotDistance.begin(), shotDistance.end(), x)) {
+	for(auto &x : courseLength) {
+		if(binary_search(begin, end, x)) {
 			numberOfHoles++;
 			continue;
 		}
 
-		for(int y : shotDistance) {
+		/*if(shotDistance.find(x) != end) {
+			numberOfHoles++;
+			continue;
+		}*/
+
+		for(auto &y : shotDistance) {
 			if(y > x)
 				break;
 
-			if(binary_search(shotDistance.begin(), shotDistance.end(), (x - y))) {
+			if(binary_search(begin, end, (x - y))) {
 				numberOfHoles++;
 				break;
 			}
+
+			/*if(shotDistance.find(x - y) != end) {
+				numberOfHoles++;
+				break;
+			}*/
 		}
 	}
 
-	cout << numberOfHoles << endl;
+	cout << numberOfHoles << "\n";
 
 	return 0;
 }
