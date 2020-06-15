@@ -15,3 +15,6 @@ Golf Bot | In Progress | Kattis | C++
 Primary Arithmetic | Completed | Kattis | C++
 Playfair Cipher | Completed | Kattis | C++
 Catalan Numbers | In Progress | Kattis | C++
+Shiritori | Completed | Kattis | Java
+The Key to Cryptography | Completed | Kattis | C++
+Cryptographic Keys | In Progress | Kattis | C++
