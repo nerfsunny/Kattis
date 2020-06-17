@@ -62,13 +62,16 @@ public class readMeScript {
 
 		outputFile.WriteLine("## Complete Problem List");
 		outputFile.WriteLine(header);
-		outputFile.WriteLine("------------ | ------------ | ------------ | ------------");
+		outputFile.WriteLine("--- | ------------ | ------------ | ------------ | ------------");
 
 		//Sorts the lines in alphabetical order
 		lines.Sort();
 
-		foreach(string x in lines)
-			outputFile.WriteLine(x);
+		/*foreach(string x in lines)
+			outputFile.WriteLine(x);*/
+
+		for(int i = 0; i < lines.Count; i++) 
+			outputFile.WriteLine((i + 1) + " | " + lines[i]);
 
 		outputFile.Write("\n");
 		outputFile.WriteLine("## Stats");
