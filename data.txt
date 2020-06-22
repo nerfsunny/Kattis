@@ -1,4 +1,4 @@
-Problem | Status | Source | Languages(s)
+Number | Problem | Status | Source | Languages(s)
 3D Printed Statues | Completed | Kattis | C++
 A + B | In Progress | Kattis | Java
 Arithmetic | In Progress | Kattis | C++
@@ -18,3 +18,5 @@ Catalan Numbers | In Progress | Kattis | C++
 Shiritori | Completed | Kattis | Java
 The Key to Cryptography | Completed | Kattis | C++
 Cryptographic Keys | In Progress | Kattis | C++
+Rational Arithmetic | Completed | Kattis | Java
+Basic Programming 1 | In Progress | Kattis | Java
