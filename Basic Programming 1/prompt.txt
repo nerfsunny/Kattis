@@ -1,0 +1,88 @@
+You think you can code?
+This problem will test you on various basic programming techniques.
+You are given two integers 𝑁 and 𝑡; and then an array 𝐴 of 𝑁 integers (0-based indexing).
+Based on the value of 𝑡, you will perform an action on 𝐴.
+
+t | Action Needed 
+  |
+1 | Print 7, regardless of the content of 𝐴
+  |
+2 | Print “Bigger” if 𝐴[0]>𝐴[1], or
+  | Print “Equal” if 𝐴[0]==𝐴[1], or
+  | Print “Smaller” otherwise (without the quotes); 
+  | Ignore other indices of 𝐴, if any
+3 | Print the median of three integers {𝐴[0], 𝐴[1], and 𝐴[2]};
+  | Ignore other indices of 𝐴, if any
+4 | Print the sum of all integers in 𝐴
+  |
+5 | Print the sum of all even integers in 𝐴
+  |
+6 | Apply modulo (%) 26 to each integer in 𝐴,
+  | Map integer 0/1/…/25 to character ‘a’/‘b’/…/‘z’,
+  | Finally, print the sequence of characters as a string (without the spaces)
+  |
+7 | a. Start from index 𝑖=0;
+  | b. Jump to index 𝑖=𝐴[𝑖];
+  | c. If the current index 𝑖 is outside the valid bound of [0..𝑁-1], print “Out” and stop;
+  | d. Else if the current index 𝑖 is index 𝑁-1, print “Done” and stop;
+  | e1. Otherwise, repeat step b;
+  | e2. If doing this leads to an infinite loop, print “Cyclic” and stop;
+  | (all output are without the quotes)
+
+Input
+
+The first line of the input contains an integer 𝑁 and 𝑡 (3≤𝑁≤200000; 1≤𝑡≤7).
+The second line of the input contains 𝑁 non-negative 32-bit signed integers.
+
+Output
+
+For each test case, output the required answer based on the value of 𝑡.
+
+Scoring
+
+There are 20 hidden test cases that test various requirements of this problem.
+All 20 test cases will be tested.
+Each hidden test case worth 5 points (the 7 sample test cases below worth 0 point).
+
+Sample Input 1                 Sample Output 1
+7 1                            7
+1 2 3 4 5 6 7
+
+Sample Input 2                 Sample Output 2
+7 2                            Smaller
+1 2 3 4 5 6 7
+
+Sample Input 3                 Sample Output 3
+7 3                            2
+1 2 3 4 5 6 7
+
+Sample Input 4                 Sample Output 4
+7 4                            28
+1 2 3 4 5 6 7
+
+Sample Input 5                 Sample Output 5
+7 5                            12
+1 2 3 4 5 6 7
+
+Sample Input 6                 Sample Output 6
+10 6                           helloworld
+7 4 11 37 14 22 40 17 11 3
+
+Sample Input 7                 Sample Output 7
+3 7                            Cyclic
+1 0 2
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/basicprogramming1
+
+Problem ID: basicprogramming1
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 3.8
