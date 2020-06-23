@@ -28,9 +28,9 @@ public class basicProgramming1 {
 					System.out.println("Smaller");
 				break;
 			case 3:
-				if(numArray[0] >= numArray[1] && numArray[0] <= numArray[2])
+				if(numArray[0] > numArray[1] && numArray[0] < numArray[2])
 					System.out.println(numArray[0]);
-				else if(numArray[1] >= numArray[0] && numArray[1] <= numArray[2])
+				else if(numArray[1] > numArray[0] && numArray[1] < numArray[2])
 					System.out.println(numArray[1]);
 				else
 					System.out.println(numArray[2]);
@@ -63,29 +63,28 @@ public class basicProgramming1 {
 				System.out.println(result);
 				break;
 			case 7:
-				int current = numArray[0];
-				String s = Integer.toString(current);
+				int arrayIndex = numArray[0];
+				HashSet<Integer> numSet = new HashSet<Integer>();
+				numSet.add(new Integer(arrayIndex));
 
-				while(true) {
-					if(current < numArray.length - 1)
-						current = numArray[current];
-					else if(current == numArray.length - 1) {
+				while(arrayIndex < numArray.length) {
+					if(arrayIndex == numArray.length - 1) {
 						System.out.println("Done");
 						break;
 					}
-					else {
-						System.out.println("Out");
-						break;
-					}
 
-					String c = Integer.toString(current);
+					arrayIndex = numArray[arrayIndex];
 
-					if(c.equals(s.substring(0, 1))) {
+					if(!numSet.add(new Integer(arrayIndex))) {
 						System.out.println("Cyclic");
 						break;
-					}else
-						s += c;
+					}
 				}
+
+				if(arrayIndex >= numArray.length)
+					System.out.println("Out");
+
+				break;
 			default:
 				return;
 		};
