@@ -1,0 +1,55 @@
+You think you can code?
+This problem will test you on various basic programming techniques.
+You are given two integers 𝑁 and 𝑡; and then an array 𝐴 of 𝑁 integers (0-based indexing).
+Based on the value of 𝑡, you will perform an action on 𝐴.
+
+Input
+
+The first line of the input contains an integer 𝑁 and 𝑡 (3≤𝑁≤200000; 1≤𝑡≤5).
+The second line of the input contains 𝑁 non-negative 32-bit signed integers.
+
+Output
+
+For each test case, output the required answer based on the value of 𝑡.
+
+Scoring
+
+There are 20 hidden test cases that test various requirements of this problem.
+All 20 test cases will be tested.
+Each hidden test case worth 5 points (the 5 sample test cases below worth 0 point).
+
+Sample Input 1                     Sample Output 1
+7 1                                Yes
+1 7770 3 4 5 6 7
+
+Sample Input 2                     Sample Output 2
+7 2                                Unique
+1 2 3 4 5 6 7
+
+Sample Input 3                     Sample Output 3
+7 3                                1
+1 1 1 1 2 2 2
+
+Sample Input 4                     Sample Output 4
+8 4                                4 5
+8 1 4 3 6 7 5 2
+
+Sample Input 5                     Sample Output 5
+7 5                                210 321 543 777 999
+210 999 1000 543 321 99 777
+
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/basicprogramming2
+
+Problem ID: basicprogramming2
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 3.3
