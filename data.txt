@@ -14,9 +14,12 @@ Guessing Game | Completed | Kattis | C++
 Golf Bot | In Progress | Kattis | C++
 Primary Arithmetic | Completed | Kattis | C++
 Playfair Cipher | Completed | Kattis | C++
-Catalan Numbers | In Progress | Kattis | C++
+Catalan Numbers | In Progress | Kattis | C++, Java
 Shiritori | Completed | Kattis | Java
 The Key to Cryptography | Completed | Kattis | C++
 Cryptographic Keys | In Progress | Kattis | C++
 Rational Arithmetic | Completed | Kattis | Java
 Basic Programming 1 | In Progress | Kattis | Java
+Basic Programming 2 | In Progress | Kattis | Java
+Permutation Cipher | Completed | Kattis | C++
+Self-Similar Strings | In Progress | Kattis | C++

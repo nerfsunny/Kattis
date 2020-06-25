@@ -1,0 +1,34 @@
+An object is sometimes called ‘self-similar’ if there are parts of it that are repeated in other places within the same object. Fractals are self-similar mathematical objects, where the similarities occur at different sizes.
+
+Here, we’ll consider ‘self-similar strings.’ We’ll say that a string 𝑠 is self-similar to degree 𝑑 if all 𝑑-length substrings of 𝑠 occur in at least one other location in 𝑠. For example, the string ‘babbabb’ is self-similar to degree 0, degree 1, and degree 2. It is not self-similar to any greater degree. It should be clear that 𝑑≤|𝑠|−1.
+
+Write a program which determines the largest degree of self-similarity for given strings.
+
+Input
+
+Input is a list of up to 10000 strings, one per line. Each string is made of up to 80 lower-case alphabet characters (a-z). Input ends at the end of file.
+
+Output
+
+For each string, print the largest degree to which the string is self-similar.
+
+Sample input 1               Sample Output 1
+abcdefg                      0
+aaaaaa                       5
+bababab                      4
+aaabbbccc                    1
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/selfsimilarstrings
+
+Problem ID: selfsimilarstrings
+
+CPU Time limit: 2 second
+
+Memory limit: 1024 MB
+
+Difficulty: 3.4
