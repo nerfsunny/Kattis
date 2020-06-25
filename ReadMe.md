@@ -8,37 +8,40 @@ Number | Problem | Status | Source | Languages(s)
 2 | A + B | In Progress | Kattis | Java
 3 | Arithmetic | In Progress | Kattis | C++
 4 | Basic Programming 1 | In Progress | Kattis | Java
-5 | Bats! | Planned | Kattis | N/A
-6 | Catalan Numbers | In Progress | Kattis | C++
-7 | Combination Lock | In Progress | Kattis | C++
-8 | Cryptographic Keys | In Progress | Kattis | C++
-9 | Game Rank | In Progress | Kattis | C++
-10 | Golf Bot | In Progress | Kattis | C++
-11 | Guessing Game | Completed | Kattis | C++
-12 | Lost in Translation | Planned | Kattis | N/A
-13 | Packing Stacks of Boxes | Planned | Reddit | N/A
-14 | Perfect Pth Power | Planned | Kattis | N/A
-15 | Playfair Cipher | Completed | Kattis | C++
-16 | Primary Arithmetic | Completed | Kattis | C++
-17 | Rational Arithmetic | Completed | Kattis | Java
-18 | Shiritori | Completed | Kattis | Java
-19 | Soft Passwords | Completed | Kattis | Java
-20 | The Key to Cryptography | Completed | Kattis | C++
-21 | Word Hyphenation by Computer | Planned | Reddit | N/A
+5 | Basic Programming 2 | In Progress | Kattis | Java
+6 | Bats! | Planned | Kattis | N/A
+7 | Catalan Numbers | In Progress | Kattis | C++, Java
+8 | Combination Lock | In Progress | Kattis | C++
+9 | Cryptographic Keys | In Progress | Kattis | C++
+10 | Game Rank | In Progress | Kattis | C++
+11 | Golf Bot | In Progress | Kattis | C++
+12 | Guessing Game | Completed | Kattis | C++
+13 | Lost in Translation | Planned | Kattis | N/A
+14 | Packing Stacks of Boxes | Planned | Reddit | N/A
+15 | Perfect Pth Power | Planned | Kattis | N/A
+16 | Permutation Cipher | Completed | Kattis | C++
+17 | Playfair Cipher | Completed | Kattis | C++
+18 | Primary Arithmetic | Completed | Kattis | C++
+19 | Rational Arithmetic | Completed | Kattis | Java
+20 | Self-Similar Strings | In Progress | Kattis | C++
+21 | Shiritori | Completed | Kattis | Java
+22 | Soft Passwords | Completed | Kattis | Java
+23 | The Key to Cryptography | Completed | Kattis | C++
+24 | Word Hyphenation by Computer | Planned | Reddit | N/A
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 11
-Java | 5
+C++ | 13
+Java | 7
 
 Source | Number of Problems
 --- | ---
-Kattis | 19
+Kattis | 22
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 8
-Completed | 8
+In Progress | 10
+Completed | 9
