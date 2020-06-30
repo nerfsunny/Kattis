@@ -1,0 +1,30 @@
+An arithmetic sequence is a list of values where the difference between consecutive values is always the same. For example, 3,7,11,15 qualifies and so does 25,15,5,−5,−15. However 2,4,7 and 3,6,9,6 are not arithmetic sequences.
+
+Input
+
+Input begins with an integer, 1≤𝑛≤100, on a line by itself. Following this are 𝑛 lines, each describing a sequence. Each line begins with an integer, 3 ≤ 𝑚 ≤ 100, giving the length of the sequence. This is followed by the 𝑚 integer values that actually make up the sequence. Each of the sequence integers is in the range [−10^6,10^6].
+
+Output
+
+For each sequence, output a line that says “arithmetic” if the sequence is an arithmetic sequence. Output “permuted arithmetic” if the sequence can be reordered to make an arithmetic sequence. Otherwise, output “non-arithmetic”.
+
+Sample Input 1               Sample Output 1
+3                            arithmetic
+5 1 2 3 4 5                  permuted arithmetic
+3 20 6 13                    non-arithmetic
+4 5 9 15 19
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/permutedarithmeticsequence
+
+Problem ID: permutedarithmeticsequence
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.0
