@@ -22,11 +22,15 @@ public class catalan {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int number, numberOfInputs = scan.nextInt();
+		HashMap<Integer, BigInteger> factorials = new HashMap<Integer, BigInteger>();
+		BigInteger factorialNumber;
 
 		while(scan.hasNextInt()) {
 			number = scan.nextInt();
+			factorialNumber = calculateCatalanNumber(number);
+			factorials.put(number, factorialNumber);
 
-			System.out.println(calculateCatalanNumber(number));
+			System.out.println(factorialNumber);
 		}
 	}
 }
