@@ -19,11 +19,11 @@ Number | Problem | Status | Source | Languages(s)
 13 | Lost in Translation | Planned | Kattis | N/A
 14 | Packing Stacks of Boxes | Planned | Reddit | N/A
 15 | Perfect Pth Power | Planned | Kattis | N/A
-16 | Permutation Cipher | Completed | Kattis | C++
-17 | Playfair Cipher | Completed | Kattis | C++
-18 | Primary Arithmetic | Completed | Kattis | C++
-19 | Rational Arithmetic | Completed | Kattis | Java
-20 | Self-Similar Strings | In Progress | Kattis | C++
+16 | Permutation Encryption | Completed | Kattis | C++
+17 | Permuted Arithmetic Sequence | Completed | Kattis | C++
+18 | Playfair Cipher | Completed | Kattis | C++
+19 | Primary Arithmetic | Completed | Kattis | C++
+20 | Rational Arithmetic | Completed | Kattis | Java
 21 | Shiritori | Completed | Kattis | Java
 22 | Soft Passwords | Completed | Kattis | Java
 23 | The Key to Cryptography | Completed | Kattis | C++
@@ -43,5 +43,5 @@ Reddit | 2
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 10
-Completed | 9
+In Progress | 9
+Completed | 10
