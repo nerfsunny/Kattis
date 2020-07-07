@@ -31,21 +31,22 @@ Number | Problem | Status | Source | Languages(s)
 25 | Shiritori | Completed | Kattis | Java
 26 | Soft Passwords | Completed | Kattis | Java
 27 | The Key to Cryptography | Completed | Kattis | C++
-28 | Word Hyphenation by Computer | Planned | Reddit | N/A
+28 | Which Base Is It Anyway? | Completed | Kattis | C++
+29 | Word Hyphenation by Computer | Planned | Reddit | N/A
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 17
+C++ | 18
 Java | 7
 
 Source | Number of Problems
 --- | ---
-Kattis | 26
+Kattis | 27
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 5
 In Progress | 11
-Completed | 12
+Completed | 13

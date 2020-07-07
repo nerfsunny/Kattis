@@ -27,3 +27,4 @@ Self-Similar String | In Progress | Kattis | C++
 Printing Costs | Completed | Kattis | C++
 Saving Princess Peach | Completed | Kattis | C++
 FBI Universal Control Numbers | In Progress | Kattis | C++
+Which Base Is It Anyway? | Completed | Kattis | C++
