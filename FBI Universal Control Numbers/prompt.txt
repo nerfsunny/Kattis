@@ -1,0 +1,34 @@
+Mario is trying to save his beloved Princess Peach! However, in order to do that, Mario must jump over many obstacles in order to save Princess Peach. Thus, he makes a grand plan to infiltrate Bowser’s castle.
+
+But first, he needs to practice. His brother Luigi makes a practice course for Mario to train on. On this course, Mario practices looking for all the possible obstacles that could take away his life. But Mario is sloppy and misses some obstacles, counts some obstacles more than once, and generally screws up the order of the obstacles he does find when he lists them!
+
+Write a program so that Luigi can tell his brother which obstacles he’s missed!
+
+Input
+
+The first line contains 2 values. The first value 𝑁 (0<𝑁≤100) is the total number of obstacles. Obstacles are numbered 0…𝑁−1. The second value 𝑌 (0≤𝑌≤200) represents how many obstacles Mario said he’s found on his practice run. The next 𝑌 lines each list a single integer 𝑘 (0≤𝑘<𝑁) which is the number of an obstacle Mario says he’s found.
+
+Output
+
+First, output the obstacles that Mario missed in increasing order, each on a separate line. On the last line, print Mario got X of the dangerous obstacles. where 𝑋 is the number of distinct obstacles Mario found.
+
+Sample Input 1         Sample Output 1
+3                      1 11280469652
+1 12345678A            2 Invalid
+2 12435678A            3 Invalid
+3 12355678A
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/fbiuniversal
+
+Problem ID: fbiuniversal
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.2
