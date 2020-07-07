@@ -14,14 +14,14 @@ public class basicProgramming1 {
 	}
 
 	public static int case3(Scanner input) {
-		int num1 = input.nextInt(), num2 = input.nextInt(), num3 = input.nextInt();
+		ArrayList<Integer> list = new ArrayList<Integer>(3);
 
-		if(num1 >= num2 && num1 <= num3)
-			return num1;
-		else if(num2 >= num1 && num2 <= num3)
-			return num2;
-		else
-			return num3;
+		for(int i = 0; i < 3; i++) 
+			list.add(input.nextInt());
+
+		Collections.sort(list);
+
+		return list.get(1);
 	}
 
 	public static int case4(Scanner input) {
@@ -34,10 +34,10 @@ public class basicProgramming1 {
 	}
 
 	public static int case5(Scanner input, int arraySize) {
-		int sum = 0;
+		int sum = 0, num;
 
 		for(int i = 0; i < arraySize; i++) {
-			int num = input.nextInt();
+			num = input.nextInt();
 
 			if(num % 2 == 0)
 				sum += num;
@@ -46,16 +46,17 @@ public class basicProgramming1 {
 		return sum;
 	}
 
-	public static String case6(Scanner input, int arraySize) {
-		String result = "";
+	public static void case6(Scanner input, int arraySize) {
+		StringBuilder result = new StringBuilder();
+		int num, letter;
 
 		for(int i = 0; i < arraySize; i++) {
-			int num = input.nextInt();
-			int letter = 97 + (num % 26);
-			result += (char) letter;
+			num = input.nextInt();
+			letter = 97 + (num % 26);
+			result.append((char) letter);
 		}
 
-		return result;
+		System.out.println(result);
 	}
 
 	public static void case7(Scanner input, int arraySize) {
@@ -89,9 +90,9 @@ public class basicProgramming1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		int arraySize = input.nextInt();
-		int state = input.nextInt();
+		int arraySize = input.nextInt(), state = input.nextInt();
 
+		//Moves cursor to the next line
 		input.nextLine();
 
 		switch(state) {
@@ -111,7 +112,7 @@ public class basicProgramming1 {
 				System.out.println(case5(input, arraySize));
 				break;
 			case 6:
-				System.out.println(case6(input, arraySize));
+				case6(input, arraySize);
 				break;
 			case 7:
 				case7(input, arraySize);
