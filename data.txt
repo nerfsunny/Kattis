@@ -20,7 +20,7 @@ The Key to Cryptography | Completed | Kattis | C++
 Cryptographic Keys | In Progress | Kattis | C++
 Rational Arithmetic | Completed | Kattis | Java
 Basic Programming 1 | In Progress | Kattis | Java
-Basic Programming 2 | In Progress | Kattis | Java
+Basic Programming 2 | Completed | Kattis | Java
 Permutation Encryption | Completed | Kattis | C++
 Permuted Arithmetic Sequence | Completed | Kattis | C++
 Self-Similar String | In Progress | Kattis | C++

@@ -8,7 +8,7 @@ Number | Problem | Status | Source | Languages(s)
 2 | A + B | In Progress | Kattis | Java
 3 | Arithmetic | In Progress | Kattis | C++
 4 | Basic Programming 1 | In Progress | Kattis | Java
-5 | Basic Programming 2 | In Progress | Kattis | Java
+5 | Basic Programming 2 | Completed | Kattis | Java
 6 | Bats! | Planned | Kattis | N/A
 7 | Catalan Numbers | In Progress | Kattis | C++, Java
 8 | Combination Lock | In Progress | Kattis | C++
@@ -48,5 +48,5 @@ Reddit | 2
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 11
-Completed | 13
+In Progress | 10
+Completed | 14
