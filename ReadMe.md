@@ -13,7 +13,7 @@ Number | Problem | Status | Source | Languages(s)
 7 | Catalan Numbers | In Progress | Kattis | C++, Java
 8 | Combination Lock | In Progress | Kattis | C++
 9 | Cryptographic Keys | In Progress | Kattis | C++
-10 | FBI Universal Control Numbers | In Progress | Kattis | C++
+10 | FBI Universal Control Numbers | Completed | Kattis | C++
 11 | Game Rank | In Progress | Kattis | C++
 12 | Golf Bot | In Progress | Kattis | C++
 13 | Guessing Game | Completed | Kattis | C++
@@ -48,5 +48,5 @@ Reddit | 2
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 10
-Completed | 14
+In Progress | 9
+Completed | 15
