@@ -28,3 +28,5 @@ Printing Costs | Completed | Kattis | C++
 Saving Princess Peach | Completed | Kattis | C++
 FBI Universal Control Numbers | Completed | Kattis | C++
 Which Base Is It Anyway? | Completed | Kattis | C++
+Engineering English | Completed | Kattis | C++
+Umm Code | In Progress | Kattis | C++
