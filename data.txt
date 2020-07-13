@@ -19,7 +19,7 @@ Shiritori | Completed | Kattis | Java
 The Key to Cryptography | Completed | Kattis | C++
 Cryptographic Keys | In Progress | Kattis | C++
 Rational Arithmetic | Completed | Kattis | Java
-Basic Programming 1 | In Progress | Kattis | Java
+Basic Programming 1 | Completed | Kattis | Java
 Basic Programming 2 | Completed | Kattis | Java
 Permutation Encryption | Completed | Kattis | C++
 Permuted Arithmetic Sequence | Completed | Kattis | C++
@@ -30,3 +30,5 @@ FBI Universal Control Numbers | Completed | Kattis | C++
 Which Base Is It Anyway? | Completed | Kattis | C++
 Engineering English | Completed | Kattis | C++
 Umm Code | In Progress | Kattis | C++
+Bus Numbers | In Progress | Kattis | Java
+Egypt | In Progress | Kattis | C++
