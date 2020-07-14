@@ -7,50 +7,51 @@ Number | Problem | Status | Source | Languages(s)
 1 | 3D Printed Statues | Completed | Kattis | C++
 2 | A + B | In Progress | Kattis | Java
 3 | Arithmetic | In Progress | Kattis | C++
-4 | Basic Programming 1 | Completed | Kattis | Java
-5 | Basic Programming 2 | Completed | Kattis | Java
-6 | Bats! | Planned | Kattis | N/A
-7 | Bus Numbers | In Progress | Kattis | Java
-8 | Catalan Numbers | In Progress | Kattis | C++, Java
-9 | Combination Lock | In Progress | Kattis | C++
-10 | Cryptographic Keys | In Progress | Kattis | C++
-11 | Egypt | In Progress | Kattis | C++
-12 | Engineering English | Completed | Kattis | C++
-13 | FBI Universal Control Numbers | Completed | Kattis | C++
-14 | Game Rank | In Progress | Kattis | C++
-15 | Golf Bot | In Progress | Kattis | C++
-16 | Guessing Game | Completed | Kattis | C++
-17 | Lost in Translation | Planned | Kattis | N/A
-18 | Packing Stacks of Boxes | Planned | Reddit | N/A
-19 | Perfect Pth Power | Planned | Kattis | N/A
-20 | Permutation Encryption | Completed | Kattis | C++
-21 | Permuted Arithmetic Sequence | Completed | Kattis | C++
-22 | Playfair Cipher | Completed | Kattis | C++
-23 | Primary Arithmetic | Completed | Kattis | C++
-24 | Printing Costs | Completed | Kattis | C++
-25 | Rational Arithmetic | Completed | Kattis | Java
-26 | Saving Princess Peach | Completed | Kattis | C++
-27 | Self-Similar String | In Progress | Kattis | C++
-28 | Shiritori | Completed | Kattis | Java
-29 | Soft Passwords | Completed | Kattis | Java
-30 | The Key to Cryptography | Completed | Kattis | C++
-31 | Umm Code | In Progress | Kattis | C++
-32 | Which Base Is It Anyway? | Completed | Kattis | C++
-33 | Word Hyphenation by Computer | Planned | Reddit | N/A
+4 | Babylonian Numbers | Completed | Kattis | C++
+5 | Basic Programming 1 | Completed | Kattis | Java
+6 | Basic Programming 2 | Completed | Kattis | Java
+7 | Bats! | Planned | Kattis | N/A
+8 | Bus Numbers | In Progress | Kattis | Java
+9 | Catalan Numbers | In Progress | Kattis | C++, Java
+10 | Combination Lock | In Progress | Kattis | C++
+11 | Cryptographic Keys | In Progress | Kattis | C++
+12 | Egypt | Completed | Kattis | C++
+13 | Engineering English | Completed | Kattis | C++
+14 | FBI Universal Control Numbers | Completed | Kattis | C++
+15 | Game Rank | In Progress | Kattis | C++
+16 | Golf Bot | In Progress | Kattis | C++
+17 | Guessing Game | Completed | Kattis | C++
+18 | Lost in Translation | Planned | Kattis | N/A
+19 | Packing Stacks of Boxes | Planned | Reddit | N/A
+20 | Perfect Pth Power | Planned | Kattis | N/A
+21 | Permutation Encryption | Completed | Kattis | C++
+22 | Permuted Arithmetic Sequence | Completed | Kattis | C++
+23 | Playfair Cipher | Completed | Kattis | C++
+24 | Primary Arithmetic | Completed | Kattis | C++
+25 | Printing Costs | Completed | Kattis | C++
+26 | Rational Arithmetic | Completed | Kattis | Java
+27 | Saving Princess Peach | Completed | Kattis | C++
+28 | Self-Similar String | In Progress | Kattis | C++
+29 | Shiritori | Completed | Kattis | Java
+30 | Soft Passwords | Completed | Kattis | Java
+31 | The Key to Cryptography | Completed | Kattis | C++
+32 | Umm Code | In Progress | Kattis | C++
+33 | Which Base Is It Anyway? | Completed | Kattis | C++
+34 | Word Hyphenation by Computer | Planned | Reddit | N/A
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 21
+C++ | 22
 Java | 8
 
 Source | Number of Problems
 --- | ---
-Kattis | 31
+Kattis | 32
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 11
-Completed | 17
+In Progress | 10
+Completed | 19
