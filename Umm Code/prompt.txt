@@ -31,7 +31,7 @@ https://open.kattis.com/problems/ummcode
 
 Problem ID: ummcode
 
-CPU Time limit: 1 second
+CPU Time limit: 3 second
 
 Memory limit: 1024 MB
 
