@@ -1,0 +1,31 @@
+A positive integer 𝑝 is called a perfect number if all the proper divisors of 𝑝 sum to 𝑝 exactly. Integer 𝑑 is a proper divisor of 𝑝 if 1≤𝑑≤𝑝−1 and 𝑝 is evenly divisible by 𝑑. For example, the number 28 is a perfect number, since its proper divisors (which are 1, 2, 4, 7 and 14) add up to 28.
+
+Perfect numbers are rare; only 50 of them are known (as of 2017). Perhaps the definition of perfection is a little too strict. Instead, we will consider numbers that we’ll call almost perfect. Positive integer 𝑝 is almost perfect if the proper divisors of 𝑝 sum to a value that differs from 𝑝 by no more than two.
+
+Input
+
+Input consists of a sequence of up to 500 integers, one per line. Each integer is in the range 2 to 10^9 (inclusive). Input ends at end of file.
+
+Output
+
+For each input value, output the same value and then one of the following: “perfect” (if the number is perfect), “almost perfect” (if it is almost perfect but not perfect), or “not perfect” (otherwise).
+
+Sample Input 1               Sample Output 1
+6                            6 perfect
+65                           65 perfect
+650                          650 perfect
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/playfair
+
+Problem ID: playfair
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 3.2
