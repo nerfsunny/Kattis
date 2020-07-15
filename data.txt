@@ -33,3 +33,7 @@ Umm Code | In Progress | Kattis | C++
 Bus Numbers | In Progress | Kattis | Java
 Egypt | Completed | Kattis | C++
 Babylonian Numbers | Completed | Kattis | C++
+Almost Perfect | In Progress | Katis | C++
+Hardware | Completed | Kattis | C++
+Bus Numbers | Completed | Kattis | Java
+Shopaholic | In Progress | Kattis | Java
