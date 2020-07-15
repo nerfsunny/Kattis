@@ -64,31 +64,31 @@ string parseString(string& line, set<char>& charSet) {
 	return umLine;
 }
 
-int convertFromBinaryToDecimal(int binaryNumber) {
-	int value = 0, power = 0;
+int convertFromBinaryToDecimal(string& binaryNumber) {
+	int decimalNumber = 0, power = 0;
 
-	while(binaryNumber > 0) {
-		int digit = binaryNumber % 10;
-		value += (digit * pow(2, power));
+	while(binaryNumber.length() > 0) {
+		int digit = stoi(binaryNumber.substr(binaryNumber.length() - 1));
+		decimalNumber += (digit * pow(2, power));
 		power++;
-		binaryNumber = binaryNumber/10;
+		binaryNumber = binaryNumber.substr(0, binaryNumber.length() - 1);
 	}
 
-	return value;
+	return decimalNumber;
 }
 
 string convertToString(string& byteCode) {
-	string str, chunk;
+	string decodedString, chunk;
 
 	while(byteCode.length() > 0) {
-		chunk.append(byteCode.substr(0, 7));
+		chunk = byteCode.substr(0, 7);
 		byteCode = byteCode.substr(7);
 
-		str += (char) convertFromBinaryToDecimal(stoi(chunk));
+		decodedString += (char) convertFromBinaryToDecimal(chunk);
 		chunk.clear();
 	}
 
-	return str;
+	return decodedString;
 }
 
 int main(int argc, char** argv) {
@@ -98,9 +98,11 @@ int main(int argc, char** argv) {
 	getline(cin, line);
 
 	convertToLowerCase(line);
+
 	um = parseString(line, charSet);
 
 	string umByteCode = convertFromStringToByteCode(um);
+
 	line = convertToString(umByteCode);
 
 	cout << line << endl;
