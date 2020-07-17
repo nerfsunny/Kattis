@@ -30,7 +30,6 @@ FBI Universal Control Numbers | Completed | Kattis | C++
 Which Base Is It Anyway? | Completed | Kattis | C++
 Engineering English | Completed | Kattis | C++
 Umm Code | In Progress | Kattis | C++
-Bus Numbers | In Progress | Kattis | Java
 Egypt | Completed | Kattis | C++
 Babylonian Numbers | Completed | Kattis | C++
 Almost Perfect | In Progress | Katis | C++
