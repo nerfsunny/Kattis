@@ -32,7 +32,10 @@ Engineering English | Completed | Kattis | C++
 Umm Code | In Progress | Kattis | C++
 Egypt | Completed | Kattis | C++
 Babylonian Numbers | Completed | Kattis | C++
-Almost Perfect | In Progress | Katis | C++
+Almost Perfect | In Progress | Kattis | C++
 Hardware | Completed | Kattis | C++
 Bus Numbers | Completed | Kattis | Java
 Shopaholic | In Progress | Kattis | Java
+Pig Latin | Completed | Kattis | C++, Java
+Keywords | Completed | Kattis | C++
+Simon Says | Completed | Kattis | C++
