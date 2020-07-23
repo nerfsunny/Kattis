@@ -33,31 +33,33 @@ Number | Problem | Status | Source | Languages(s)
 27 | Playfair Cipher | Completed | Kattis | C++
 28 | Primary Arithmetic | Completed | Kattis | C++
 29 | Printing Costs | Completed | Kattis | C++
-30 | Rational Arithmetic | Completed | Kattis | Java
-31 | Saving Princess Peach | Completed | Kattis | C++
-32 | Self-Similar String | In Progress | Kattis | C++
-33 | Shiritori | Completed | Kattis | Java
-34 | Shopaholic | In Progress | Kattis | Java
-35 | Simon Says | Completed | Kattis | C++
-36 | Soft Passwords | Completed | Kattis | Java
-37 | The Key to Cryptography | Completed | Kattis | C++
-38 | Umm Code | In Progress | Kattis | C++
-39 | Which Base Is It Anyway? | Completed | Kattis | C++
-40 | Word Hyphenation by Computer | Planned | Reddit | N/A
+30 | Quick Brown Fox | Completed | Kattis | C++
+31 | Rational Arithmetic | Completed | Kattis | Java
+32 | Saving Princess Peach | Completed | Kattis | C++
+33 | Self-Similar String | In Progress | Kattis | C++
+34 | Shiritori | Completed | Kattis | Java
+35 | Shopaholic | In Progress | Kattis | Java
+36 | Simon Says | Completed | Kattis | C++
+37 | Simplicity | In Progress | Kattis | C++
+38 | Soft Passwords | Completed | Kattis | Java
+39 | The Key to Cryptography | Completed | Kattis | C++
+40 | Umm Code | In Progress | Kattis | C++
+41 | Which Base Is It Anyway? | Completed | Kattis | C++
+42 | Word Hyphenation by Computer | Planned | Reddit | N/A
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 27
+C++ | 29
 Java | 10
 
 Source | Number of Problems
 --- | ---
-Kattis | 38
+Kattis | 40
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 11
-Completed | 24
+In Progress | 12
+Completed | 25

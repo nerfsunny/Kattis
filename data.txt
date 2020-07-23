@@ -39,3 +39,5 @@ Shopaholic | In Progress | Kattis | Java
 Pig Latin | Completed | Kattis | C++, Java
 Keywords | Completed | Kattis | C++
 Simon Says | Completed | Kattis | C++
+Simplicity | In Progress | Kattis | C++
+Quick Brown Fox | Completed | Kattis | C++
