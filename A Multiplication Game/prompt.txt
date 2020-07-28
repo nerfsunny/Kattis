@@ -1,0 +1,29 @@
+Stan and Ollie play the game of multiplication by multiplying an integer 𝑝 by one of the numbers 2 to 9. Stan always starts with 𝑝=1, does his multiplication, then Ollie multiplies the number, then Stan and so on. Before a game starts, they draw an integer 𝑛 and the winner is who first reaches 𝑝≥𝑛.
+
+Input
+
+Each line of input contains the integer 1<𝑛<4294967295. There are at most 30 lines of input.
+
+Output
+
+For each line of input output one line either Stan wins or Ollie wins assuming that both of them play perfectly.
+
+Sample Input 1               Sample Output 1
+162                          Stan wins.
+17                           Ollie wins.
+34012226                     Stan wins.
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/amultiplicationgame
+
+Problem ID: amultiplicationgame
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 4.7
