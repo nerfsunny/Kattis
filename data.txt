@@ -42,3 +42,8 @@ Simon Says | Completed | Kattis | C++
 Simplicity | In Progress | Kattis | C++
 Quick Brown Fox | Completed | Kattis | C++
 Raid Teams | In Progress | Kattis | Java
+Password Hacking | Planned | Kattis | N/A
+Incognito | Planned | Kattis | N/A
+Pizza Crust | Planned | Kattis | N/A
+A Multiplication Game | Planned | Kattis | N/A
+Yoda | Planned | Kattis | N/A
