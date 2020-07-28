@@ -41,3 +41,4 @@ Keywords | Completed | Kattis | C++
 Simon Says | Completed | Kattis | C++
 Simplicity | In Progress | Kattis | C++
 Quick Brown Fox | Completed | Kattis | C++
+Raid Teams | In Progress | Kattis | Java
