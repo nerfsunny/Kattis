@@ -1,0 +1,48 @@
+There is an upcoming raid event in an online game. You are the leader of a guild with 𝑁 adventurers. In this game, every adventurer has a rating 𝑆 for each of the 3 skills that every adventurer must learn. A high 𝑆 value indicates mastery at that skill. You wish to group the adventurers into raid teams using the following steps:
+	• Amongst all currently available adventurers, the adventurer with the highest 𝑆 value for the first skill is selected. In cases of ties, the adventurer with the lexicographically smallest name is selected. That adventurer is no longer available from now on.
+	• The same selection criteria is applied for the second and third skill in order.
+	• These three adventurers will form a raid team.
+	• The process repeats starting from the first skill until no more teams of three can be formed. There could be situations where some players are not part of any raid teams. They will stay behind and guard the guild hall during the event.
+
+Report the members of every newly-created raid team, in the order which the teams were formed. All 𝑁 adventurers are available initially.
+
+Input
+
+The first line of the input contains an integer 𝑁 (3≤𝑁≤100000). 𝑁 lines follow, each line beginning with the name of the adventurer followed by three integers 𝑆1𝑆2𝑆3 (0≤𝑆1,𝑆2,𝑆3≤2000000000) describing the level of proficiency of the adventurer in the three skills in order. All names are non-empty alphanumeric string of at most 10 characters, and all names are unique.
+
+Output
+
+Whenever a raid team is formed, on a new line, output the three names of the adventurers of the new team from the lexicographically smallest name to the lexicographically largest name, with a single space between consecutive names.
+
+Subtasks
+	1. (40 Points): 1≤𝑁≤10000, all adventurers have the same skill values for all three skills.
+	2. (30 Points): 1≤𝑁≤10000
+	3. (30 Points): No additional constraint.
+
+Warning
+
+The I/O files are large. Please use fast I/O methods.
+
+Sample Input 1               Sample Output 1
+6                            player2 player3 player6
+player1 3 3 3                player1 player4 player5
+player2 6 6 6
+player3 5 5 5
+player4 2 2 2
+player5 1 1 1
+player6 4 4 4
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/raidteams
+
+Problem ID: raidteams
+
+CPU Time limit: 2 seconds
+
+Memory limit: 1024 MB
+
+Difficulty: 4.2
