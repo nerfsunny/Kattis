@@ -32,7 +32,7 @@ Engineering English | Completed | Kattis | C++
 Umm Code | In Progress | Kattis | C++
 Egypt | Completed | Kattis | C++
 Babylonian Numbers | Completed | Kattis | C++
-Almost Perfect | In Progress | Kattis | C++
+Almost Perfect | Completed | Kattis | C++
 Hardware | Completed | Kattis | C++
 Bus Numbers | Completed | Kattis | Java
 Shopaholic | In Progress | Kattis | Java
@@ -44,6 +44,6 @@ Quick Brown Fox | Completed | Kattis | C++
 Raid Teams | In Progress | Kattis | Java
 Password Hacking | Planned | Kattis | N/A
 Incognito | Planned | Kattis | N/A
-Pizza Crust | Planned | Kattis | N/A
+Pizza Crust | Completed | Kattis | C++
 A Multiplication Game | Planned | Kattis | N/A
 Yoda | Planned | Kattis | N/A

@@ -7,7 +7,7 @@ Number | Problem | Status | Source | Languages(s)
 1 | 3D Printed Statues | Completed | Kattis | C++
 2 | A + B | In Progress | Kattis | Java
 3 | A Multiplication Game | Planned | Kattis | N/A
-4 | Almost Perfect | In Progress | Kattis | C++
+4 | Almost Perfect | Completed | Kattis | C++
 5 | Arithmetic | In Progress | Kattis | C++
 6 | Babylonian Numbers | Completed | Kattis | C++
 7 | Basic Programming 1 | Completed | Kattis | Java
@@ -33,7 +33,7 @@ Number | Problem | Status | Source | Languages(s)
 27 | Permutation Encryption | Completed | Kattis | C++
 28 | Permuted Arithmetic Sequence | Completed | Kattis | C++
 29 | Pig Latin | Completed | Kattis | C++, Java
-30 | Pizza Crust | Planned | Kattis | N/A
+30 | Pizza Crust | Completed | Kattis | C++
 31 | Playfair Cipher | Completed | Kattis | C++
 32 | Primary Arithmetic | Completed | Kattis | C++
 33 | Printing Costs | Completed | Kattis | C++
@@ -56,7 +56,7 @@ Number | Problem | Status | Source | Languages(s)
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 29
+C++ | 30
 Java | 11
 
 Source | Number of Problems
@@ -66,6 +66,6 @@ Reddit | 2
 
 Status | Number of Problems
 --- | ---
-Planned | 10
-In Progress | 13
-Completed | 25
+Planned | 9
+In Progress | 12
+Completed | 27
