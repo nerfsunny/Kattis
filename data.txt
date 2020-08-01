@@ -46,4 +46,6 @@ Password Hacking | Planned | Kattis | N/A
 Incognito | Planned | Kattis | N/A
 Pizza Crust | Completed | Kattis | C++
 A Multiplication Game | Planned | Kattis | N/A
-Yoda | Planned | Kattis | N/A
+Yoda | Completed | Kattis | C++
+A Different Problem | Completed | Kattis | C++
+Parsing Hex | In Progress | Kattis | C++
