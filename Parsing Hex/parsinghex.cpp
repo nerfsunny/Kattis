@@ -47,9 +47,9 @@ int main(int argc, char** argv) {
 			if(index != string::npos) {
 				string hex = "0x";
 
-				for(int i = index + 1; i < line.length(); i++) {
+				for(int i = index + 2; i < line.length(); i++) {
 					if(charSet.find(line[i]) != end)
-						hex += line[i];
+						hex.append(line.substr(i, 1));
 					else {
 						line = line.substr(i + 1);
 						break;
@@ -67,9 +67,9 @@ int main(int argc, char** argv) {
 			if(index != string::npos) {
 				string hex = "0X";
 
-				for(int i = index + 1; i < line.length(); i++) {
+				for(int i = index + 2; i < line.length(); i++) {
 					if(charSet.find(line[i]) != end)
-						hex += line[i];
+						hex.append(line.substr(i, 1));
 					else {
 						line = line.substr(i + 1);
 						break;
@@ -80,10 +80,10 @@ int main(int argc, char** argv) {
 				cout << hex << " " << convertFromHexToDecimal(hexNumber, charSet) << endl;
 
 				continue;
-			};
+			}
 
 			if(index == string::npos)
-				line.empty();
+				line.clear();
 		}
 	}
 
