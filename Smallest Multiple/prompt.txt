@@ -1,0 +1,29 @@
+Given a set of numbers, find the smallest number that is a multiple of every number in the set.
+
+Input
+
+Input consists of up to 500 test cases, one per line. Each test case contains at least one but no more than 1000 space-separated integers, each in the range [1,2^31−1]. Input ends at end of file.
+
+Output
+
+For each test case, print a line with the smallest positive integer that is a multiple of every number in the set.
+
+Sample Input 1 	           Sample Output 1
+2 3 5                      30
+1 2 3 4                    12
+399 772 163 959 242        832307365428
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/smallestmultiple
+
+Problem ID: smallestmultiple
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 3.6
