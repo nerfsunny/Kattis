@@ -52,22 +52,23 @@ Number | Problem | Status | Source | Languages(s)
 46 | The Key to Cryptography | Completed | Kattis | C++
 47 | Umm Code | In Progress | Kattis | C++
 48 | Which Base Is It Anyway? | Completed | Kattis | C++
-49 | Word Hyphenation by Computer | Planned | Reddit | N/A
-50 | Yoda | Completed | Kattis | C++
+49 | Word Cloud | Completed | Kattis | C++
+50 | Word Hyphenation by Computer | Planned | Reddit | N/A
+51 | Yoda | Completed | Kattis | C++
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 33
+C++ | 34
 Java | 11
 
 Source | Number of Problems
 --- | ---
-Kattis | 48
+Kattis | 49
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 8
 In Progress | 13
-Completed | 29
+Completed | 30

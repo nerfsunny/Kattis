@@ -49,3 +49,4 @@ A Multiplication Game | Planned | Kattis | N/A
 Yoda | Completed | Kattis | C++
 A Different Problem | Completed | Kattis | C++
 Parsing Hex | In Progress | Kattis | C++
+Word Cloud | Completed | Kattis | C++
