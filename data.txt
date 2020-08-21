@@ -50,3 +50,5 @@ Yoda | Completed | Kattis | C++
 A Different Problem | Completed | Kattis | C++
 Parsing Hex | In Progress | Kattis | C++
 Word Cloud | Completed | Kattis | C++
+Smallest Multiple | In Progress | Kattis | C++
+Alphabet Animals | In Progress | Kattis | C++
