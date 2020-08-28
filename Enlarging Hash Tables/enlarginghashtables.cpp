@@ -11,7 +11,7 @@ bool isPrime(ull number) {
         return false;
 
     //For-loop that goes from 3 to closest int value of the square root of number; if a value in this range is a factor of number, it returns false
-    for(ull num = 3; num <= (int) sqrt(number); num++) {
+    for(ull num = 3; num <= (int) sqrt(number); num += 2) {
         //If-statement that checks if number is divisible by num; returns false if it is
         if(number % num == 0)
             return false;
