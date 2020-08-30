@@ -52,7 +52,7 @@ Number | Problem | Status | Source | Languages(s)
 46 | Shopaholic | In Progress | Kattis | Java
 47 | Simon Says | Completed | Kattis | C++
 48 | Simplicity | In Progress | Kattis | C++
-49 | Smallest Multiple | In Progress | Kattis | C++
+49 | Smallest Multiple | In Progress | Kattis | C++, Java
 50 | Soft Passwords | Completed | Kattis | Java
 51 | The Key to Cryptography | Completed | Kattis | C++
 52 | Umm Code | In Progress | Kattis | C++
@@ -65,7 +65,7 @@ Number | Problem | Status | Source | Languages(s)
 Language | Number of Problems
 --- | ---
 C++ | 39
-Java | 11
+Java | 12
 
 Source | Number of Problems
 --- | ---
