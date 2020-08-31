@@ -1,0 +1,34 @@
+Alex and Barb are waiting for their two cousins to visit for dinner. Since their cousins tend to get involved in all sorts of shenanigans, Alex and Barb decide to pass the time with a little card game.
+
+The game is as follows: there is a stack of 𝑘 cards on the table. Alex and Barb take turns taking from 𝑚 to 𝑛 cards, beginning with Alex. The first player with no valid moves left loses.
+
+Given 𝑘, 𝑚, and 𝑛, determine which player will win the game provided that both play with an optimal strategy.
+
+Input
+
+The input consists of a single line containing three space-separated integers 1≤𝑘≤10^9 and 1≤𝑚≤𝑛≤10^9.
+
+Output
+
+On a single line output the name of the winning player.
+
+Sample Input 1     Sample Output 1
+5 2 2              Barb
+
+Sample Input 2     Sample Output 1
+25 3 10             Alex
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/alexandbarb
+
+Problem ID: alexandbarb
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.7
