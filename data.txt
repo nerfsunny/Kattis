@@ -55,3 +55,5 @@ Alphabet Animals | In Progress | Kattis | C++
 Digit Product | Completed | Kattis | C++
 Enlarging Hash Tables | Completed | Kattis | C++
 Missing Numbers | Completed | Kattis | C++
+Alex And Barb | In Progress | Kattis | C++
+Adding Words | In Progress | Kattis | C++
