@@ -8,7 +8,7 @@ Number | Problem | Status | Source | Languages(s)
 2 | A + B | In Progress | Kattis | Java
 3 | A Different Problem | Completed | Kattis | C++
 4 | A Multiplication Game | Planned | Kattis | N/A
-5 | Adding Words | In Progress | Kattis | C++
+5 | Adding Words | Completed | Kattis | C++
 6 | Alex And Barb | In Progress | Kattis | C++
 7 | Almost Perfect | Completed | Kattis | C++
 8 | Alphabet Animals | In Progress | Kattis | C++
@@ -56,26 +56,27 @@ Number | Problem | Status | Source | Languages(s)
 50 | Simplicity | In Progress | Kattis | C++
 51 | Smallest Multiple | In Progress | Kattis | C++, Java
 52 | Soft Passwords | Completed | Kattis | Java
-53 | The Key to Cryptography | Completed | Kattis | C++
-54 | Umm Code | In Progress | Kattis | C++
-55 | Which Base Is It Anyway? | Completed | Kattis | C++
-56 | Word Cloud | Completed | Kattis | C++
-57 | Word Hyphenation by Computer | Planned | Reddit | N/A
-58 | Yoda | Completed | Kattis | C++
+53 | Sretan | In Progress | Kattis | C++
+54 | The Key to Cryptography | Completed | Kattis | C++
+55 | Umm Code | In Progress | Kattis | C++
+56 | Which Base Is It Anyway? | Completed | Kattis | C++
+57 | Word Cloud | Completed | Kattis | C++
+58 | Word Hyphenation by Computer | Planned | Reddit | N/A
+59 | Yoda | Completed | Kattis | C++
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 41
+C++ | 42
 Java | 12
 
 Source | Number of Problems
 --- | ---
-Kattis | 56
+Kattis | 57
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 8
 In Progress | 17
-Completed | 33
+Completed | 34

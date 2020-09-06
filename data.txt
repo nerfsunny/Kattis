@@ -56,4 +56,6 @@ Digit Product | Completed | Kattis | C++
 Enlarging Hash Tables | Completed | Kattis | C++
 Missing Numbers | Completed | Kattis | C++
 Alex And Barb | In Progress | Kattis | C++
-Adding Words | In Progress | Kattis | C++
+Adding Words | Completed | Kattis | C++
+Sretan | In Progress | Kattis | C++
+Cumalative Sums | In Progress | Kattis | C++
