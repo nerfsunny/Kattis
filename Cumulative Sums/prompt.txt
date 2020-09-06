@@ -1,0 +1,21 @@
+While learning mathematics at school, Hieu amazingly invented a new sequence of numbers. It can be defined as below:
+
+𝐴1 =1 
+𝐴𝑖 = 𝐴_(𝑖−1) + 𝑠𝑜𝑑(𝐴_(𝑖−1))
+
+Here 𝑠𝑜𝑑(𝑋) is the sum of digits of 𝑋 (in base 10)
+
+The first few elements of sequence 𝐴 is [1,2,4,8,16,23,28,38,49,62,70,77,91,…]. Hieu also researched on its cumulative sums. The cumulative sums 𝑆 of the sequence 𝐴 is defined as:
+
+𝑆_𝑖 = ∑^i _(j = 1) = 𝐴𝑗
+
+Problem found on kattis.com
+https://open.kattis.com/problems/cumulative
+
+Problem ID:  cumulative
+
+CPU Time limit: 1 second
+
+Memory limit: 256 MB
+
+Difficulty: 7.7
