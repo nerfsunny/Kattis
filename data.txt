@@ -59,3 +59,5 @@ Alex And Barb | In Progress | Kattis | C++
 Adding Words | Completed | Kattis | C++
 Sretan | In Progress | Kattis | C++
 Cumalative Sums | In Progress | Kattis | C++
+Roll Call | In Progress | Kattis | C++
+Quadrant Selection | Completed | Kattis | C++
