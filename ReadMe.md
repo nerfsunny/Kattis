@@ -31,7 +31,7 @@ Number | Problem | Status | Source | Languages(s)
 25 | Golf Bot | In Progress | Kattis | C++
 26 | Guessing Game | Completed | Kattis | C++
 27 | Hardware | Completed | Kattis | C++
-28 | Incognito | Planned | Kattis | N/A
+28 | Incognito | In Progress | Kattis | Java
 29 | Keywords | Completed | Kattis | C++
 30 | Lost in Translation | Planned | Kattis | N/A
 31 | Missing Numbers | Completed | Kattis | C++
@@ -50,7 +50,7 @@ Number | Problem | Status | Source | Languages(s)
 44 | Quick Brown Fox | Completed | Kattis | C++
 45 | Raid Teams | In Progress | Kattis | Java
 46 | Rational Arithmetic | Completed | Kattis | Java
-47 | Roll Call | In Progress | Kattis | C++
+47 | Roll Call | Completed | Kattis | C++
 48 | Saving Princess Peach | Completed | Kattis | C++
 49 | Self-Similar String | In Progress | Kattis | C++
 50 | Shiritori | Completed | Kattis | Java
@@ -71,7 +71,7 @@ Number | Problem | Status | Source | Languages(s)
 Language | Number of Problems
 --- | ---
 C++ | 45
-Java | 12
+Java | 13
 
 Source | Number of Problems
 --- | ---
@@ -80,6 +80,6 @@ Reddit | 2
 
 Status | Number of Problems
 --- | ---
-Planned | 8
+Planned | 7
 In Progress | 19
-Completed | 35
+Completed | 36
