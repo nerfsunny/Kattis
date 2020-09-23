@@ -21,34 +21,30 @@ int main(int argc, char** argv) {
     }
 
     word.clear();
+    char startingLetter = initialWord[initialWord.length() - 1];
 
-    while(true) {
-        if(potentialWords.find(initialWord[initialWord.length() - 1]) != potentialWords.end()) {
-            char letter = initialWord[initialWord.length() - 1];
+    if(potentialWords.find(startingLetter) != potentialWords.end()) {
+        for(int i = 0; i < potentialWords.at(startingLetter).size(); i++) {
+            string temp = potentialWords.at(startingLetter).at(i);
+            potentialWords.at(startingLetter).erase(potentialWords.at(startingLetter).begin() + i);
 
-            if(potentialWords.at(letter).size() == 1 && potentialWords.at(letter).at(0)[0] == potentialWords.at(letter).at(0)[potentialWords.at(letter).at(0).length() - 1]) {
-                word = potentialWords.at(letter).at(0) + "!";
+            if(potentialWords.find(temp[temp.length() - 1]) == potentialWords.end()) {
+                word = temp + "!";
                 break;
             }
 
-            for(int index = 0; index < potentialWords.at(letter).size(); index++) {
-                string currentWord = potentialWords.at(letter).at(index);
-                potentialWords.at(letter).erase(potentialWords.at(letter).begin() + index);
-
-                if(potentialWords.find(currentWord[currentWord.length() - 1]) == potentialWords.end()) {
-                    word = currentWord + "!";
-                    break;
-                }else
-                    potentialWords.at(letter).insert(potentialWords.at(letter).begin() + index, currentWord);                
+            if(potentialWords.find(temp[temp.length() - 1]) != potentialWords.end() && potentialWords.at(temp[temp.length() - 1]).size() == 0) {
+                word = temp + "!";
+                break;
             }
 
-            word = potentialWords.at(letter).at(0);
-            break;
-        }else {
-            word = "?";
-            break;
+            potentialWords.at(startingLetter).insert(potentialWords.at(startingLetter).begin() + i, temp);
         }
-    }
+
+        if(word.empty())
+            word = potentialWords.at(startingLetter).at(0);
+    }else
+        word = "?";
 
     cout << word << endl;
     
