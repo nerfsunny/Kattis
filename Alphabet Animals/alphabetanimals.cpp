@@ -22,11 +22,14 @@ int main(int argc, char** argv) {
 
     word.clear();
     char startingLetter = initialWord[initialWord.length() - 1];
+    vector<string> wordList;
 
     if(potentialWords.find(startingLetter) != potentialWords.end()) {
-        for(int i = 0; i < potentialWords.at(startingLetter).size(); i++) {
-            string temp = potentialWords.at(startingLetter).at(i);
-            potentialWords.at(startingLetter).erase(potentialWords.at(startingLetter).begin() + i);
+        wordList.reserve(potentialWords.at(startingLetter).size());
+
+        while(potentialWords.at(startingLetter).size() > 0) {
+            string temp = potentialWords.at(startingLetter).at(0);
+            potentialWords.at(startingLetter).erase(potentialWords.at(startingLetter).begin());
 
             if(potentialWords.find(temp[temp.length() - 1]) == potentialWords.end()) {
                 word = temp + "!";
@@ -38,8 +41,11 @@ int main(int argc, char** argv) {
                 break;
             }
 
-            potentialWords.at(startingLetter).insert(potentialWords.at(startingLetter).begin() + i, temp);
+            wordList.push_back(temp);
         }
+
+        wordList.insert(wordList.end(), potentialWords.at(startingLetter).begin(), potentialWords.at(startingLetter).end());
+        potentialWords[startingLetter] = wordList;
 
         if(word.empty())
             word = potentialWords.at(startingLetter).at(0);
