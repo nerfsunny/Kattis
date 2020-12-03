@@ -61,3 +61,4 @@ Sretan | In Progress | Kattis | C++
 Cumalative Sums | In Progress | Kattis | C++
 Roll Call | Completed | Kattis | C++
 Quadrant Selection | Completed | Kattis | C++
+Above Average | Completed | Kattis | C++
