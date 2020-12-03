@@ -62,3 +62,7 @@ Cumalative Sums | In Progress | Kattis | C++
 Roll Call | Completed | Kattis | C++
 Quadrant Selection | Completed | Kattis | C++
 Above Average | Completed | Kattis | C++
+Honour Thy (Apaxian) Parent | Completed | Kattis | C++
+Batter Up | Completed | Kattis | C++
+Ninety-Nine | Completed | Kattis | C++
+Simple Arithmetic | In Progress | Kattis | C++
