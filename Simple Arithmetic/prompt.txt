@@ -1,0 +1,45 @@
+You are given three integers 𝑎,𝑏,𝑐 (1≤𝑎,𝑏,𝑐≤10^9). Compute 𝑎⋅𝑏/𝑐, with an absolute precision of 10^−6.
+
+Input
+
+The first and only line of input contains the three integers 𝑎,𝑏,𝑐 separated by a single space.
+
+Output
+
+Output a single floating point number. It must differ from 𝑎⋅𝑏/𝑐 by at most 10^−6 in absolute value, i.e., it should obey |𝑥−𝑎⋅𝑏/𝑐|≤10^−6.
+
+Constraints
+
+Your solution will be tested on a set of test groups, each worth a number of points. Each test group contains a set of test cases. To get the points for a test group you need to solve all test cases in the test group. Your final score will be the maximum score of a single submission.
+
+1 | 25 Points | 1≤𝑎,𝑏,𝑐≤10
+2 | 25 Points | 1≤𝑎,𝑏,𝑐≤10000
+3 | 25 Points | 1≤𝑎,𝑏≤10^9,𝑐=1
+4 | 25 Points | 1≤𝑎,𝑏,𝑐≤10^9
+
+Sample Input 1          Sample Output 1
+3 5 7                   2.142857142857142857
+
+Sample Input 2          Sample Output 2
+9999 9876 1             98750124
+
+Sample Input 3          Sample Output 3
+123456789 987654321 1   121932631112635269.000000000000000000
+
+Sample Input 4          Sample Output 4
+123456789 987654321 7   17418947301805038.428571428571428571
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/simplearithmetic
+
+Problem ID: simplearithmetic
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 1.3 - 3.6

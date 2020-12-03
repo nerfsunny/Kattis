@@ -1,0 +1,40 @@
+You and your friend are playing a game which you call Ninety-nine. You start, by saying either the number 1 or 2. You then take turns, starting with your friend, increasing this number by either 1 or 2 in each step. The first player who gets to say the number 99 wins!
+
+Write a program which plays this game for you and wins.
+
+Interactivity
+
+This problem is interactive.
+
+Your program should start by printing either the number 1 or 2 on a single line. The grader will then read this number (call it 𝑥), and in return print a line with either 𝑥+1 or 𝑥+2, which can be read by your program. Your program should then print a number which is 1 or 2 higher, and so on.
+
+If you manage to win the game and print 99, your program should then exit normally (with status code 0). On the other hand, if your program reads 99, it should also exit normally; the test group will then get the verdict Wrong Answer. Printing an invalid value (including numbers larger than 99) will also result in Wrong Answer, assuming your program exits afterwards. If your program does not exit as it should, its verdict may be either Wrong Answer, Runtime Error or Time Limit Exceeded, depending on exact circumstances.
+
+You must make sure to flush standard output before reading the grader’s response, or else your program will get judged as Time Limit Exceeded. This works as follows in the supported languages:
+    Java: System.out.println() flushes automatically.
+    Python: print() flushes automatically.
+    C++: cout << endl; flushes, in addition to writing a newline. If using printf, fflush(stdout).
+    Pascal: Flush(Output).
+
+Constraints
+
+Your solution will be tested on a set of test groups, each worth a number of points. Each test group contains a set of test cases. To get the points for a test group you need to solve all test cases in the test group. Your final score will be the maximum score of a single submission.
+
+1 | 30 Points | Your friend always increases the number by 1.
+2 | 30 Points | Your friend always increases the number by 2 (unless at 98).
+3 | 40 Points | Your friend plays randomly, with each option having 50% probability (unless at 98).
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/ninetynine
+
+Problem ID: ninetynine
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 1.3 - 2.4
