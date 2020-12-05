@@ -1,0 +1,36 @@
+Write a program that reads a list of words from standard input and prints out a sorted list of all unique compound words that can be made by concatenating two different words from the input list. If the same compound word can be formed more than one way, it should only be listed once in the output.
+
+Input
+
+Input is a list of words separated by whitespace (spaces and / or newlines). There may be more than one word on each input line. Each word is a sequence of lowercase letters a - z. Input ends at end of file.
+
+Output
+
+Your program should print out the sorted list of all unique compound words, one per line.
+
+Sample Input 1          Sample Output 1
+a bb                    aab
+ab b                    ab
+                        aba
+                        abb
+                        abbb
+                        ba
+                        bab
+                        bba
+                        bbab
+                        bbb
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/compoundwords
+
+Problem ID: compoundwords
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 1.6
