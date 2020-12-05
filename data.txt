@@ -66,3 +66,6 @@ Honour Thy (Apaxian) Parent | Completed | Kattis | C++
 Batter Up | Completed | Kattis | C++
 Ninety-Nine | Completed | Kattis | C++
 Simple Arithmetic | In Progress | Kattis | C++
+Apaxiaaans | Completed | Kattis | C++
+Compound Words | Completed | Kattis | C++
+Birthday Memorization | In Progress | Kattis | C++
