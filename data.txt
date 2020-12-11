@@ -69,3 +69,5 @@ Simple Arithmetic | In Progress | Kattis | C++
 Apaxiaaans | Completed | Kattis | C++
 Compound Words | Completed | Kattis | C++
 Birthday Memorization | In Progress | Kattis | C++
+Luhn's Checksum Algorithm | Completed | Kattis | C++
+I Wanna Be The Very Best | Completed | Kattis | Java
