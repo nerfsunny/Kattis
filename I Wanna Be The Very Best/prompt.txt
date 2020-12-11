@@ -1,0 +1,49 @@
+In order to become the very best Pokenom trainer, Bash needs to prepare a team of Pokenom to participate in the Pokenom world championship.
+
+Bash has 𝑁 Pokenoms. Each Pokenom has 3 stats: Attack, Defense and Health. Bash wants to select 𝐾 Pokenoms with highest attack, 𝐾 Pokenoms with highest defense and 𝐾 Pokenoms with highest Health.
+
+After selection, Bash found something strange: his team have less than 3×𝐾 Pokenoms!
+
+Bash looks carefully at 𝑁=4 Pokenoms he has:
+    ‘Chikapu’: Attack = 100, Defense = 100, Health = 100
+    ‘Batterfly’: Attack = 10, Defense = 10, Health = 10
+    ‘Mewthree’: Attack = 200, Defense = 200, Health = 80
+    ‘Dragonon’: Attack = 150, Defense = 150, Health = 90
+
+When Bash selects Pokenom with 𝐾=1, only ‘Mewthree’ and ‘Chikapu’ are selected! This is because ‘Mewthree’ has highest attack and highest defense!
+
+When Bash selects Pokenom with 𝐾=1, only ‘Mewthree’ and ‘Chikapu’ are selected! This is because ‘Mewthree’ has highest attack and highest defense!
+
+Input
+
+The first line of input contains 2 integers 𝑁 and 𝐾 (1≤𝐾≤𝑁≤1000).
+
+In the next 𝑁 lines, the 𝑖-th line contains 3 integers: 𝐴𝑖, 𝐷𝑖 and 𝐻𝑖, representing the 3 stats of the 𝑖-th Pokenom. 𝐴𝑖, 𝐷𝑖 and 𝐻𝑖 are unsigned 32-bit integers.
+
+It is guaranteed that no 2 Pokenom have same Attack, no 2 Pokenom have same Defense, and no 2 Pokenoms have same Health.
+
+Output
+
+Output one line containing exactly one integer: the number of Pokenom in Bash’s team.
+
+Sample Input 1     Sample Output 1
+4 1                2
+100 100 100
+10 10 10
+200 200 80
+150 150 90
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/iwannabe
+
+Problem ID: iwannabe
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.6

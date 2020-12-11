@@ -1,0 +1,47 @@
+In 1954, Hans Peter Luhn, a researcher at IBM, filed a patent describing a simple checksum algorithm for numbers written as strings of base-10 digits. If a number is chosen according to Luhn’s technique, the algorithm provides a basic integrity check. This means that with reasonably high probability it can detect whether one or more digits have been accidentally modified. (On the other hand, it provides essentially no protection against intentional modifications.) Most credit card and bank card numbers can be validated using Luhn’s checksum algorithm, as can the national identification numbers of several countries (including Canada).
+
+Given a number 𝑛 = 𝑑_𝑘, 𝑑_(𝑘−1), …,𝑑_2, 𝑑_1, where each 𝑑_𝑖 is a base-10 digit, here is how to apply Luhn’s checksum test:
+    Starting at the right end of 𝑛, transform every second digit 𝑑_𝑖 (i.e., 𝑑_2,𝑑_4,𝑑_6,…) as follows:
+        multiply 𝑑_𝑖 by 2
+        if 2⋅𝑑_𝑖 consists of more than one digit, i.e., is greater than 9, add these digits together; this will always produce a single-digit number
+
+    Add up all the digits of 𝑛 after the transformation step. If the resulting sum is divisible by 10, 𝑛 passes the Luhn checksum test. Otherwise, 𝑛 fails the Luhn checksum test.
+
+For example, consider the number 𝑛=1234567890123411 from Sample Input 1. The first row of Figure 1 gives the original digits of 𝑛, and the second row contains the digits of 𝑛 after the transformation step, with transformed digits shown in bold. The sum of the digits in the second row is
+
+2 + 2 + 6 + 4 + 1 + 6 + 5 + 8 + 9 + 0 + 2 + 2 + 6 + 4 + 2 + 1 = 60
+
+and since 60 is divisible by 10, 𝑛 passes the Luhn checksum test.
+
+Example:
+    1 2 3 4 5 6 7 8 9 0 1 2 3 4 1 1
+    2 2 6 4 1 6 5 8 9 0 2 2 6 4 2 1
+
+Input
+
+The first line of input contains a single integer 𝑇 (1 ≤ 𝑇 ≤ 100), the number of test cases. Each of the following 𝑇 lines contains a single test case consisting of a number given as a string of base-10 digits (0–9). The length of each string is between 2 and 50, inclusive, and numbers may have leading (leftmost) zeros.
+
+Output
+
+For each test case, output a single line containing “PASS” if the number passes the Luhn checksum test, or “FAIL” if the number fails the Luhn checksum test.
+
+Sample Input 1          Sample Output 1
+3                       PASS
+00554                   FAIL
+999                     PASS
+1234567890123411
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/luhnchecksum
+
+Problem ID: luhnchecksum
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 1.6
