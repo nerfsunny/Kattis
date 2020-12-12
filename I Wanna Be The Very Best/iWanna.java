@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 import java.lang.String;
 
+//Comparator that overrides default one and sorts Pokemon by their health
 class sortByHealth implements Comparator<Pokemon> {
     @Override
     public int compare(Pokemon p1, Pokemon p2) {
@@ -11,6 +12,7 @@ class sortByHealth implements Comparator<Pokemon> {
     }
 }
 
+//Comparator that overrides default one and sorts Pokemon by their attack
 class sortByAttack implements Comparator<Pokemon> {
     @Override
     public int compare(Pokemon p1, Pokemon p2) {
@@ -18,6 +20,7 @@ class sortByAttack implements Comparator<Pokemon> {
     }
 }
 
+//Comparator that overrides default one and sorts Pokemon by their defense
 class sortByDefense implements Comparator<Pokemon> {
     @Override
     public int compare(Pokemon p1, Pokemon p2) {
@@ -26,6 +29,7 @@ class sortByDefense implements Comparator<Pokemon> {
 }
 
 public class iWanna {
+    //Goes through pokemonList from [0, maximumPokemon-1] and stores a copy in pokemonTeeam if one does not already exist
     public static void topPokemon(ArrayList<Pokemon> pokemonList, ArrayList<Pokemon> pokemonTeam, int maximumPokemon) {
         //For-loop that grabs the top maximumPokemon in either health, attack, or defense (depending on how the given pokemonList was sorted)
         for(int i = 0; i < maximumPokemon; i++)
