@@ -1,3 +1,42 @@
+Krarkl wants to learn the birthdays of all his 𝑁 friends, so he knows whom to congratulate each day. Unfortunately collisions sometimes arise, meaning several friends may have the same birthday. This may confuse Krarkl, so he decided to only remember the birthday of the friend he likes the most in case of a collision. Given a list of birthdays for each of his friends and how much Krarkl likes each friend, print what friends Krarkl will remember the birthday for.
+
+Input
+
+The first line of input contains an integer 𝑁 (1≤𝑁≤2000), the number of friends.
+
+Then 𝑁 lines follow, one for each friend. The 𝑖’th of these lines contains a string with the 𝑖’th friend’s first name 𝑆𝑖 (𝑆𝑖 will be between 1 and 10 letters long), an integer 𝐶𝑖 (0≤𝐶𝑖≤100000) denoting how much Krarkl likes the friend, and their birthday given in the format DD/MM (where DD is a day between 01 and 31, and MM is a month between 01 and 12). A higher value of 𝐶𝑖 means that Krarkl likes that friend more.
+
+The birthdays will be real dates during 2020 (a leap year), for example 28/02 for February 28. All names will consist only of small English letters (a-z) with a capital first letter (A-Z). All 𝐶𝑖 will be distinct.
+
+Output
+
+On the first line, print an integer 𝐾 – the number of friends whose birthdays Krarkl will remember.
+
+This should be followed by 𝐾 lines containing a single word each, the first names of the chosen friends, in lexicographical order.
+
+Sample Input 1          Sample Output 1
+3                       2
+Sanna 1 16/03           Saga
+Simon 2 16/03           Simon
+Saga 3 14/10
+
+Sample Input 2          Sampe Output 2
+10                      5
+Oden 78 03/12           Fjorgynn
+Tor 132 14/05           Freja
+Freja 10000 14/05       Kvaser
+Loke 512 12/10          Loke
+Hel 14 04/05            Snotra
+Fjorgynn 532 13/05
+Hildegun 500 13/05
+Vindsval 17 03/12
+Snotra 20 04/05
+Kvaser 420 03/12
+
+
+
+
+
 Problem found on kattis.com
 https://open.kattis.com/problems/fodelsedagsmemorisering
 
