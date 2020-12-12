@@ -39,12 +39,12 @@ MySql
 
 
 Problem found on kattis.com
-https://open.kattis.com/problems/piglatin
+https://open.kattis.com/problems/keywords
 
-Problem ID: piglatin
+Problem ID: keywords
 
-CPU Time limit: 3 second
+CPU Time limit: 2 seconds
 
 Memory limit: 1024 MB
 
-Difficulty: 2.1
+Difficulty: 2.3
