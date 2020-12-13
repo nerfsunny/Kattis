@@ -40,7 +40,7 @@ Number | Problem | Status | Source | Languages(s)
 34 | Honour Thy (Apaxian) Parent | Completed | Kattis | C++
 35 | I Wanna Be The Very Best | Completed | Kattis | Java
 36 | Incognito | In Progress | Kattis | Java
-37 | Joyless Dream | In Progress | Kattis | C++
+37 | Joyless Dream | In Progress | Kattis | Java
 38 | Keywords | Completed | Kattis | C++
 39 | Lost in Translation | Planned | Kattis | N/A
 40 | Luhn's Checksum Algorithm | Completed | Kattis | C++
@@ -83,8 +83,8 @@ Number | Problem | Status | Source | Languages(s)
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 57
-Java | 14
+C++ | 56
+Java | 15
 
 Source | Number of Problems
 --- | ---

@@ -73,4 +73,4 @@ Luhn's Checksum Algorithm | Completed | Kattis | C++
 I Wanna Be The Very Best | Completed | Kattis | Java
 Thanos | Completed | Kattis | C++
 Bacon, Eggs, And Spam | Completed| Kattis | C++
-Joyless Dream | In Progress | Kattis | C++
+Joyless Dream | In Progress | Kattis | Java
