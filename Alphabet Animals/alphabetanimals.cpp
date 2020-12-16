@@ -24,8 +24,6 @@ int main(int argc, char** argv) {
     vector<string> wordList;
 
     if(potentialWords.find(startingLetter) != potentialWords.end()) {
-        string firstWord = potentialWords.at(startingLetter).at(0);
-
         for(int i = potentialWords.at(startingLetter).size() - 1; i >= 0; i--) {
             string temp = potentialWords.at(startingLetter).at(i);
             
@@ -35,16 +33,18 @@ int main(int argc, char** argv) {
             if(isNotInList) {
                 word = temp + "!";
                 break;
-            }else if(potentialWords.at(temp[temp.length() - 1]).size() == 0) {
+            }
+
+            if(!isNotInList && potentialWords.at(temp[temp.length() - 1]).size() == 0) {
                 word = temp + "!";
                 break;
             }
 
-            //potentialWords.at(startingLetter).insert(potentialWords.at(startingLetter).begin() + i, temp);
+            potentialWords.at(startingLetter).insert(potentialWords.at(startingLetter).begin() + i, temp);
         }
 
         if(word.empty())
-            word = firstWord;
+            word = potentialWords.at(startingLetter).at(0);
     }else
         word = "?";
 
