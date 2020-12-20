@@ -74,3 +74,4 @@ I Wanna Be The Very Best | Completed | Kattis | Java
 Thanos | Completed | Kattis | C++
 Bacon, Eggs, And Spam | Completed| Kattis | C++
 Joyless Dream | In Progress | Kattis | Java
+Daylight Saving Time | In Progress | Kattis | C++
