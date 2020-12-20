@@ -5,87 +5,64 @@
 using namespace std;
 
 unordered_map<int, int> populateTable() {
-	unordered_map<int, int> valueTable;
-	int numberOfStars = 2;
-	int counter = 0;
+    unordered_map<int, int> valueTable;
+    int numberOfStars = 2;
+    int counter = 0;
 
-	for(int index = 25; index > 0; index--) {
-		valueTable[index] = numberOfStars;
-		counter++;
+    for(int index = 25; index > 0; index--) {
+        valueTable[index] = numberOfStars;
+        counter++;
 
-		if(counter == 5 && index > 10) {
-			counter = 0;
-			numberOfStars++;
-		}
+        if(counter == 5 && index > 10) {
+            counter = 0;
+            numberOfStars++;
+        }
+    }
 
-		valueTable[0] = 0;
-	}
+    valueTable[0] = 0;
 
-	return valueTable;
+    return valueTable;
 }
 
 int main(int argc, char** argv) {
-	string record, result;
-	int numberOfStars = 0;
-	int combo = 0;
-	int rank = 25;
+	string gameRecord;
+	int numberOfStars = 0, rank = 25, combo = 0;
+	unordered_map<int, int> ranks = populateTable();
 
-	unordered_map<int, int> valueTable = populateTable();
+	cin >> gameRecord;
 
-	cin >> record;
-
-	for(char x : record) {
+	for(char x : gameRecord) {
 		if(x == 'W') {
 			numberOfStars++;
 			combo++;
 
-			if(combo >= 3 && rank > 5) 
+			if(combo >= 3 && rank > 5)
 				numberOfStars++;
 
-			if(numberOfStars > valueTable[rank] && rank != 0) {
-				numberOfStars = numberOfStars - valueTable[rank];
+			if(rank != 0 && numberOfStars > ranks[rank-1]) {
 				rank--;
+				numberOfStars -= ranks[rank];
 			}
-
-			cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
 		}else {
 			combo = 0;
 
-			if(rank > 20 && rank <= 25) {
-				cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
+			if(rank == 0 || rank > 20)
 				continue;
-			}
-
-			if(rank == 0) {
-                if(numberOfStars == 0)
-                    continue;
-
-				numberOfStars--;
-				cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
-				continue;
-			}
 
 			if(numberOfStars == 0) {
-				if(rank == 20) {
-					cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
-					continue;
-				}else {
-					numberOfStars = valueTable[rank] - 1;
+				if(rank != 20) {
 					rank++;
+					numberOfStars = ranks[rank] - 1;
 				}
 			}else
 				numberOfStars--;
-
-            cout << "Character: " << x << " Stars: " << numberOfStars << " Combo: " << combo << " Rank: " << rank << endl;
 		}
 	}
 
 	if(rank == 0)
-		result = "Legend";
+		cout << "Legend" << endl;
 	else
-		result = to_string(rank);
-
-	cout << result << endl;
+		cout << rank << endl;
 
 	return 0;
 }
