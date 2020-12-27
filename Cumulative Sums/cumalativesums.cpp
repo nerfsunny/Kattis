@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <map>
 
 using namespace std;
 using ull = unsigned long long int;
@@ -25,22 +26,22 @@ ull calculateSum(vector<ull>& sequence, const ull num) {
 }
 
 int main(int argc, char** argv) {
-    ull num, numberOfTestCases, sod;
+    ull endNum, numberOfTestCases, num;
     vector<ull> numberSequence {1};
 
     cin >> numberOfTestCases;
 
     for(int i = 0; i < numberOfTestCases; i++) {
-        cin >> num;
+        cin >> endNum;
 
-        if(num > numberSequence.size()) {
-            for(ull j = numberSequence.size()-1; j < num; j++) {
-                sod = numberSequence.at(j) + calculateSOD(numberSequence.at(j));
-                numberSequence.push_back(sod);
+        if(endNum > numberSequence.size()) {
+            for(ull j = numberSequence.size()-1; j < endNum; j++) {
+                num = numberSequence.at(j) + calculateSOD(numberSequence.at(j));
+                numberSequence.push_back(num);
             }
         }
 
-        cout << (calculateSum(numberSequence, num) % 1000000007) << endl;
+        cout << (calculateSum(numberSequence, endNum) % 1000000007) << endl;
     }
 
     return 0;
