@@ -48,7 +48,7 @@ Number | Problem | Status | Source | Languages(s)
 42 | Missing Numbers | Completed | Kattis | C++
 43 | Ninety-Nine | Completed | Kattis | C++
 44 | Packing Stacks of Boxes | Planned | Reddit | N/A
-45 | Parsing Hex | In Progress | Kattis | C++
+45 | Parsing Hex | Completed | Kattis | C++
 46 | Password Hacking | Planned | Kattis | N/A
 47 | Perfect Pth Power | Planned | Kattis | N/A
 48 | Permutation Encryption | Completed | Kattis | C++
@@ -95,5 +95,5 @@ Reddit | 2
 Status | Number of Problems
 --- | ---
 Planned | 7
-In Progress | 22
-Completed | 47
+In Progress | 21
+Completed | 48

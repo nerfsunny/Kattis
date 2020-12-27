@@ -48,7 +48,7 @@ Pizza Crust | Completed | Kattis | C++
 A Multiplication Game | Planned | Kattis | N/A
 Yoda | Completed | Kattis | C++
 A Different Problem | Completed | Kattis | C++
-Parsing Hex | In Progress | Kattis | C++
+Parsing Hex | Completed | Kattis | C++
 Word Cloud | Completed | Kattis | C++
 Smallest Multiple | In Progress | Kattis | C++, Java
 Alphabet Animals | In Progress | Kattis | C++
