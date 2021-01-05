@@ -75,3 +75,5 @@ Thanos | Completed | Kattis | C++
 Bacon, Eggs, And Spam | Completed| Kattis | C++
 Joyless Dream | In Progress | Kattis | Java
 Daylight Saving Time | In Progress | Kattis | C++
+Course Scheduling | Completed | Kattis | C++
+Popular Vote | In Progress | Kattis | C++
