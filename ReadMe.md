@@ -74,28 +74,29 @@ Number | Problem | Status | Source | Languages(s)
 68 | Simplicity | In Progress | Kattis | C++
 69 | Smallest Multiple | In Progress | Kattis | C++, Java
 70 | Soft Passwords | Completed | Kattis | Java
-71 | Sretan | In Progress | Kattis | C++
-72 | Thanos | Completed | Kattis | C++
-73 | The Key to Cryptography | Completed | Kattis | C++
-74 | Umm Code | In Progress | Kattis | C++
-75 | Which Base Is It Anyway? | Completed | Kattis | C++
-76 | Word Cloud | Completed | Kattis | C++
-77 | Word Hyphenation by Computer | Planned | Reddit | N/A
-78 | Yoda | Completed | Kattis | C++
+71 | Sort | Completed | Kattis | C++
+72 | Sretan | In Progress | Kattis | C++
+73 | Thanos | Completed | Kattis | C++
+74 | The Key to Cryptography | Completed | Kattis | C++
+75 | Umm Code | In Progress | Kattis | C++
+76 | Which Base Is It Anyway? | Completed | Kattis | C++
+77 | Word Cloud | Completed | Kattis | C++
+78 | Word Hyphenation by Computer | Planned | Reddit | N/A
+79 | Yoda | Completed | Kattis | C++
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 59
+C++ | 60
 Java | 15
 
 Source | Number of Problems
 --- | ---
-Kattis | 76
+Kattis | 77
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 7
 In Progress | 22
-Completed | 49
+Completed | 50
