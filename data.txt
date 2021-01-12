@@ -78,3 +78,6 @@ Daylight Saving Time | In Progress | Kattis | C++
 Course Scheduling | Completed | Kattis | C++
 Popular Vote | In Progress | Kattis | C++
 Sort | Completed | Kattis | C++
+Reverse Binary Numbers | Completed | Kattis | C++
+Saving Daylight | Completed | Kattis | C++
+To Lower | Completed | Kattis | C++

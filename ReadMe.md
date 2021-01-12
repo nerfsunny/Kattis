@@ -64,39 +64,42 @@ Number | Problem | Status | Source | Languages(s)
 58 | Quick Brown Fox | Completed | Kattis | C++
 59 | Raid Teams | In Progress | Kattis | Java
 60 | Rational Arithmetic | Completed | Kattis | Java
-61 | Roll Call | Completed | Kattis | C++
-62 | Saving Princess Peach | Completed | Kattis | C++
-63 | Self-Similar String | In Progress | Kattis | C++
-64 | Shiritori | Completed | Kattis | Java
-65 | Shopaholic | In Progress | Kattis | Java
-66 | Simon Says | Completed | Kattis | C++
-67 | Simple Arithmetic | In Progress | Kattis | C++
-68 | Simplicity | In Progress | Kattis | C++
-69 | Smallest Multiple | In Progress | Kattis | C++, Java
-70 | Soft Passwords | Completed | Kattis | Java
-71 | Sort | Completed | Kattis | C++
-72 | Sretan | In Progress | Kattis | C++
-73 | Thanos | Completed | Kattis | C++
-74 | The Key to Cryptography | Completed | Kattis | C++
-75 | Umm Code | In Progress | Kattis | C++
-76 | Which Base Is It Anyway? | Completed | Kattis | C++
-77 | Word Cloud | Completed | Kattis | C++
-78 | Word Hyphenation by Computer | Planned | Reddit | N/A
-79 | Yoda | Completed | Kattis | C++
+61 | Reverse Binary Numbers | Completed | Kattis | C++
+62 | Roll Call | Completed | Kattis | C++
+63 | Saving Daylight | Completed | Kattis | C++
+64 | Saving Princess Peach | Completed | Kattis | C++
+65 | Self-Similar String | In Progress | Kattis | C++
+66 | Shiritori | Completed | Kattis | Java
+67 | Shopaholic | In Progress | Kattis | Java
+68 | Simon Says | Completed | Kattis | C++
+69 | Simple Arithmetic | In Progress | Kattis | C++
+70 | Simplicity | In Progress | Kattis | C++
+71 | Smallest Multiple | In Progress | Kattis | C++, Java
+72 | Soft Passwords | Completed | Kattis | Java
+73 | Sort | Completed | Kattis | C++
+74 | Sretan | In Progress | Kattis | C++
+75 | Thanos | Completed | Kattis | C++
+76 | The Key to Cryptography | Completed | Kattis | C++
+77 | To Lower | Completed | Kattis | C++
+78 | Umm Code | In Progress | Kattis | C++
+79 | Which Base Is It Anyway? | Completed | Kattis | C++
+80 | Word Cloud | Completed | Kattis | C++
+81 | Word Hyphenation by Computer | Planned | Reddit | N/A
+82 | Yoda | Completed | Kattis | C++
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 60
+C++ | 63
 Java | 15
 
 Source | Number of Problems
 --- | ---
-Kattis | 77
+Kattis | 80
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 7
 In Progress | 22
-Completed | 50
+Completed | 53
