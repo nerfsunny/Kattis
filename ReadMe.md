@@ -26,80 +26,81 @@ Number | Problem | Status | Source | Languages(s)
 20 | Catalan Numbers | In Progress | Kattis | C++, Java
 21 | Combination Lock | In Progress | Kattis | C++
 22 | Compound Words | Completed | Kattis | C++
-23 | Course Scheduling | Completed | Kattis | C++
-24 | Cryptographic Keys | In Progress | Kattis | C++
-25 | Cumalative Sums | In Progress | Kattis | C++
-26 | Daylight Saving Time | In Progress | Kattis | C++
-27 | Digit Product | Completed | Kattis | C++
-28 | Egypt | Completed | Kattis | C++
-29 | Engineering English | Completed | Kattis | C++
-30 | Enlarging Hash Tables | Completed | Kattis | C++
-31 | FBI Universal Control Numbers | Completed | Kattis | C++
-32 | Game Rank | In Progress | Kattis | C++
-33 | Golf Bot | In Progress | Kattis | C++
-34 | Guessing Game | Completed | Kattis | C++
-35 | Hardware | Completed | Kattis | C++
-36 | Honour Thy (Apaxian) Parent | Completed | Kattis | C++
-37 | I Wanna Be The Very Best | Completed | Kattis | Java
-38 | Incognito | In Progress | Kattis | Java
-39 | Joyless Dream | In Progress | Kattis | Java
-40 | Keywords | Completed | Kattis | C++
-41 | Lost in Translation | Planned | Kattis | N/A
-42 | Luhn's Checksum Algorithm | Completed | Kattis | C++
-43 | Missing Numbers | Completed | Kattis | C++
-44 | Ninety-Nine | Completed | Kattis | C++
-45 | Packing Stacks of Boxes | Planned | Reddit | N/A
-46 | Parsing Hex | Completed | Kattis | C++
-47 | Password Hacking | Planned | Kattis | N/A
-48 | Perfect Pth Power | Planned | Kattis | N/A
-49 | Permutation Encryption | Completed | Kattis | C++
-50 | Permuted Arithmetic Sequence | Completed | Kattis | C++
-51 | Pig Latin | Completed | Kattis | C++, Java
-52 | Pizza Crust | Completed | Kattis | C++
-53 | Playfair Cipher | Completed | Kattis | C++
-54 | Popular Vote | In Progress | Kattis | C++
-55 | Primary Arithmetic | Completed | Kattis | C++
-56 | Printing Costs | Completed | Kattis | C++
-57 | Quadrant Selection | Completed | Kattis | C++
-58 | Quick Brown Fox | Completed | Kattis | C++
-59 | Raid Teams | In Progress | Kattis | Java
-60 | Rational Arithmetic | Completed | Kattis | Java
-61 | Reverse Binary Numbers | Completed | Kattis | C++
-62 | Roll Call | Completed | Kattis | C++
-63 | Saving Daylight | Completed | Kattis | C++
-64 | Saving Princess Peach | Completed | Kattis | C++
-65 | Self-Similar String | In Progress | Kattis | C++
-66 | Shiritori | Completed | Kattis | Java
-67 | Shopaholic | In Progress | Kattis | Java
-68 | Simon Says | Completed | Kattis | C++
-69 | Simple Arithmetic | In Progress | Kattis | C++
-70 | Simplicity | In Progress | Kattis | C++
-71 | Smallest Multiple | In Progress | Kattis | C++, Java
-72 | Soft Passwords | Completed | Kattis | Java
-73 | Sort | Completed | Kattis | C++
-74 | Sretan | In Progress | Kattis | C++
-75 | Thanos | Completed | Kattis | C++
-76 | The Key to Cryptography | Completed | Kattis | C++
-77 | To Lower | Completed | Kattis | C++
-78 | Umm Code | In Progress | Kattis | C++
-79 | Which Base Is It Anyway? | Completed | Kattis | C++
-80 | Word Cloud | Completed | Kattis | C++
-81 | Word Hyphenation by Computer | Planned | Reddit | N/A
-82 | Yoda | Completed | Kattis | C++
+23 | Continuous Median | In Progress | Kattis | C++
+24 | Course Scheduling | Completed | Kattis | C++
+25 | Cryptographic Keys | In Progress | Kattis | C++
+26 | Cumalative Sums | In Progress | Kattis | C++
+27 | Daylight Saving Time | In Progress | Kattis | C++
+28 | Digit Product | Completed | Kattis | C++
+29 | Egypt | Completed | Kattis | C++
+30 | Engineering English | Completed | Kattis | C++
+31 | Enlarging Hash Tables | Completed | Kattis | C++
+32 | FBI Universal Control Numbers | Completed | Kattis | C++
+33 | Game Rank | In Progress | Kattis | C++
+34 | Golf Bot | In Progress | Kattis | C++
+35 | Guessing Game | Completed | Kattis | C++
+36 | Hardware | Completed | Kattis | C++
+37 | Honour Thy (Apaxian) Parent | Completed | Kattis | C++
+38 | I Wanna Be The Very Best | Completed | Kattis | Java
+39 | Incognito | In Progress | Kattis | Java
+40 | Joyless Dream | In Progress | Kattis | Java
+41 | Keywords | Completed | Kattis | C++
+42 | Lost in Translation | Planned | Kattis | N/A
+43 | Luhn's Checksum Algorithm | Completed | Kattis | C++
+44 | Missing Numbers | Completed | Kattis | C++
+45 | Ninety-Nine | Completed | Kattis | C++
+46 | Packing Stacks of Boxes | Planned | Reddit | N/A
+47 | Parsing Hex | Completed | Kattis | C++
+48 | Password Hacking | Planned | Kattis | N/A
+49 | Perfect Pth Power | Planned | Kattis | N/A
+50 | Permutation Encryption | Completed | Kattis | C++
+51 | Permuted Arithmetic Sequence | Completed | Kattis | C++
+52 | Pig Latin | Completed | Kattis | C++, Java
+53 | Pizza Crust | Completed | Kattis | C++
+54 | Playfair Cipher | Completed | Kattis | C++
+55 | Popular Vote | In Progress | Kattis | C++
+56 | Primary Arithmetic | Completed | Kattis | C++
+57 | Printing Costs | Completed | Kattis | C++
+58 | Quadrant Selection | Completed | Kattis | C++
+59 | Quick Brown Fox | Completed | Kattis | C++
+60 | Raid Teams | In Progress | Kattis | Java
+61 | Rational Arithmetic | Completed | Kattis | Java
+62 | Reverse Binary Numbers | Completed | Kattis | C++
+63 | Roll Call | Completed | Kattis | C++
+64 | Saving Daylight | Completed | Kattis | C++
+65 | Saving Princess Peach | Completed | Kattis | C++
+66 | Self-Similar String | In Progress | Kattis | C++
+67 | Shiritori | Completed | Kattis | Java
+68 | Shopaholic | In Progress | Kattis | Java
+69 | Simon Says | Completed | Kattis | C++
+70 | Simple Arithmetic | In Progress | Kattis | C++
+71 | Simplicity | In Progress | Kattis | C++
+72 | Smallest Multiple | In Progress | Kattis | C++, Java
+73 | Soft Passwords | Completed | Kattis | Java
+74 | Sort | Completed | Kattis | C++
+75 | Sretan | In Progress | Kattis | C++
+76 | Thanos | Completed | Kattis | C++
+77 | The Key to Cryptography | Completed | Kattis | C++
+78 | To Lower | Completed | Kattis | C++
+79 | Umm Code | In Progress | Kattis | C++
+80 | Which Base Is It Anyway? | Completed | Kattis | C++
+81 | Word Cloud | Completed | Kattis | C++
+82 | Word Hyphenation by Computer | Planned | Reddit | N/A
+83 | Yoda | Completed | Kattis | C++
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 63
+C++ | 64
 Java | 15
 
 Source | Number of Problems
 --- | ---
-Kattis | 80
+Kattis | 81
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 7
-In Progress | 22
+In Progress | 23
 Completed | 53

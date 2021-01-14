@@ -81,3 +81,4 @@ Sort | Completed | Kattis | C++
 Reverse Binary Numbers | Completed | Kattis | C++
 Saving Daylight | Completed | Kattis | C++
 To Lower | Completed | Kattis | C++
+Continuous Median | In Progress | Kattis | C++
