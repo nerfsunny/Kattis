@@ -1,0 +1,43 @@
+In Statistics, the median of an array 𝐀 of 𝐍 integers is a value which divides array 𝐀 into two equal parts: the higher half and the lower half.
+
+In the case when 𝐍 is odd, the median is clearly defined: the middle value of the sorted version of array 𝐀. In the case when 𝐍 is even, the median is the average of the two middle values, rounded down so that we always have an integer median.
+
+In this problem, your task is to compute median values as integers are added into array 𝐀 one by one. Since this is an incremental process, we call these “continuous medians”. To simplify this problem, you just need to output the sum of the medians of 𝐀 at the end.
+
+Input
+
+The first line of input contains an integer 𝑇, denoting the number of test cases (1≤𝑇≤100). Each test case consists of two lines and the first line contains just one integer 𝑁 (1≤𝑁≤10^5). This is followed by 𝑁 integers of array 𝐀 in the next line. Each integer in 𝐀 is non-negative and is not more than 10^9.
+
+Note: For all input, there will be at most 400000 integers.
+
+Output
+
+For each test case, output the sum of the continuous medians of 𝐀 in one line
+
+Subtasks
+    (10 points): 1≤𝑇≤20, 1≤𝑁≤500
+    (10 points): 1≤𝑇≤100, 1≤𝑁≤500
+    (40 points): 1≤𝑇≤100, 1≤𝑁≤3000
+    (40 points): 1≤𝑇≤4, 1≤𝑁≤100000
+
+Sample Input 1          Sample Output 1
+2                       15
+6                       20
+1 3 6 2 7 8
+7
+1 3 6 2 7 8 5
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/continuousmedian
+
+Problem ID: continuousmedian
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 4.0
