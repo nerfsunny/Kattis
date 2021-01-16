@@ -51,7 +51,7 @@ A Different Problem | Completed | Kattis | C++
 Parsing Hex | Completed | Kattis | C++
 Word Cloud | Completed | Kattis | C++
 Smallest Multiple | In Progress | Kattis | C++, Java
-Alphabet Animals | In Progress | Kattis | C++
+Alphabet Animals | Completed | Kattis | C++
 Digit Product | Completed | Kattis | C++
 Enlarging Hash Tables | Completed | Kattis | C++
 Missing Numbers | Completed | Kattis | C++

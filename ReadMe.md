@@ -12,7 +12,7 @@ Number | Problem | Status | Source | Languages(s)
 6 | Adding Words | Completed | Kattis | C++
 7 | Alex And Barb | In Progress | Kattis | C++
 8 | Almost Perfect | Completed | Kattis | C++
-9 | Alphabet Animals | In Progress | Kattis | C++
+9 | Alphabet Animals | Completed | Kattis | C++
 10 | Apaxiaaans | Completed | Kattis | C++
 11 | Arithmetic | In Progress | Kattis | C++
 12 | Babylonian Numbers | Completed | Kattis | C++
@@ -102,5 +102,5 @@ Reddit | 2
 Status | Number of Problems
 --- | ---
 Planned | 7
-In Progress | 23
-Completed | 53
+In Progress | 22
+Completed | 54
