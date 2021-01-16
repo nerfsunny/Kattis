@@ -1,0 +1,44 @@
+Björn and 𝑛−1 other children stand in line to meet the "fluortant" (the fluoride administrator, who comes to school to give children fluoride treatments). Different children are more or less scared of the fluortant. The children are numbered from 1 to 𝑛, and child 𝑖 is in position 𝑖 in the queue. Child 𝑖 also has associated value 𝑎𝑖, which shows how reluctant the child is to meet the fluortant. The happiness that child 𝑖 feels of their place in the queue is 𝑖⋅𝑎𝑖. A child can have negative 𝑎𝑖, which means that they actually want to meet the fluortant and thus are sorry to have to wait.
+
+Björn is the only child who is completely indifferent to meeting the fluortant, that is, he is the only child who has 𝑎𝑖=0. In addition, he is very kindhearted, so he decides to leave the queue and then enter the queue again somewhere so that the total happiness of everyone in the queue is as great as possible. Write a program that, given the values 𝑎𝑖 for all children, calculates the maximum sum of the happiness in the queue if Björn stands in an optimal place.
+
+Input
+
+The first line contains an integer 𝑛, the number of children in the queue. On the next line are 𝑛 integers, where the 𝑖th number is 𝑎𝑖. 1≤𝑛≤106, −1000≤𝑎𝑖≤1000.
+
+Output
+
+Print a line with one integer: the maximum total happiness in the queue.
+
+Sample Input 1          Sample Output 1
+3                       -3
+1 0 -2
+
+Sample Input 2          Sample Output 2
+5                       24
+0 -8 1 1 5
+
+Sample Input 2          Sample Output 2
+7                       7
+2 -4 5 -3 0 -1 2
+
+Explanation of example 1
+
+Björn is last in the queue. The sum of the happiness is then 1⋅1+2⋅(−2)+3⋅0=−3.
+
+If Björn moves to the front of the queue, the sum of the happiness would be 1⋅0+2⋅1+3⋅(−2)=−4, and in the middle it would be 1⋅1+2⋅0+3⋅(−2)=−5. Both of these are worse alternatives.
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/fluortanten
+
+Problem ID: fluortanten
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 4.0
