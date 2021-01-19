@@ -84,3 +84,5 @@ To Lower | Completed | Kattis | C++
 Continuous Median | In Progress | Kattis | C++
 Fluortanten | In Progress | Kattis | C++
 The Last Problem | Completed | Kattis | C#
+Competitive Arcade Basketball | Completed | Kattis | C++
+Beekeeper | Completed | Kattis | C++
