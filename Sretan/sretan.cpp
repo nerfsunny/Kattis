@@ -1,32 +1,47 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-bool isLuckyNumber(int num) {
-    while(num > 0) 
-        if(num % 10 == 4 || num % 10 == 7)
-            num /= 10;
-        else
-            return false;
+void constructLuckyNumber(string& luckyNumber) {
+    string number = "";
+    string carryOver;
+    int counter = luckyNumber.size() - 1;
 
-    return true;
+    if(luckyNumber[counter] == '4')
+        luckyNumber[counter] = '7';
+    else {
+        luckyNumber[counter] = '4';
+        carryOver =  "4";
+    }
+
+    counter--;
+
+    while(carryOver == "4" && counter >= 0) {
+        if(luckyNumber[counter] == '7')
+            luckyNumber[counter] = '4';
+        else {
+            luckyNumber[counter] = '7';
+            carryOver =  "";
+            break;
+        }
+
+        counter--;
+    }
+
+    carryOver += luckyNumber;
+    luckyNumber = carryOver;
 }
 
 int main(int argc, char** argv) {
-    int luckyNumber = 3, counter = 1, kthLuckyNumber;
+    string luckyNumber = "4";
+    int ithLuckyNumber;
 
-    cin >> kthLuckyNumber;
+    cin >> ithLuckyNumber;
 
-    while(counter <= kthLuckyNumber) {
-        luckyNumber++;
+    for(int i = 1; i < ithLuckyNumber; i++)
+        constructLuckyNumber(luckyNumber);
 
-        while(!isLuckyNumber(luckyNumber)) 
-            luckyNumber++;
-        
-        counter++;
-    }
-
-    //Outputs k-th Lucky Number
     cout << luckyNumber << endl;
 
     return 0;
