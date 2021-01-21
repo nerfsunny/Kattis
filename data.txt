@@ -86,3 +86,7 @@ Fluortanten | In Progress | Kattis | C++
 The Last Problem | Completed | Kattis | C#
 Competitive Arcade Basketball | Completed | Kattis | C++
 Beekeeper | Completed | Kattis | C++
+Left Beehind | Completed | Kattis | C++
+Un-bear-able Zoo | Completed | Kattis | C++
+Bits | Completed | Kattis | C++
+Soylent | Completed | Kattis | C++
