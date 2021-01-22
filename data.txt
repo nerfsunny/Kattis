@@ -90,3 +90,6 @@ Left Beehind | Completed | Kattis | C++
 Un-bear-able Zoo | Completed | Kattis | C++
 Bits | Completed | Kattis | C++
 Soylent | Completed | Kattis | C++
+Battleship | In Progress | Kattis | C++
+Watch Out For Those Hailstones! | Completed | Kattis | C++
+Moving Day | Completed | Kattis | C++
