@@ -41,8 +41,7 @@ void printBoard(vector<vector<char>>& board, const int xAxis, const int yAxis) {
 }
 
 int main(int argc, char** argv) {
-    int inputSize, xAxis, yAxis, numberOfMoves, player1Ships, player2Ships, movesUsed2 = 0;
-    bool player1Lost = false, player2Lost = false;
+    int inputSize, xAxis, yAxis, numberOfMoves, player1Ships, player2Ships, turns = 0;
     vector<pair<int, int>> moves;
 
     cin >> inputSize;
@@ -58,25 +57,51 @@ int main(int argc, char** argv) {
 
         for(int i = 0; i < moves.size(); i++) {
             if(i % 2 == 0) {
-                
+                int xIndex = moves.at(i).second, yIndex = moves.at(i).second;
+                if(player2Board.at(yIndex).at(xIndex) == '#')
+                    player2Ships--;
+
+                player2Board.at(yIndex).at(xIndex) = 'X';
+
+                if(player2Ships == 0)
+                    break;
             }else {
-                
+                int xIndex = moves.at(i).first, yIndex = moves.at(i).second;
+                if(player1Board.at(yIndex).at(xIndex) == '#')
+                    player1Ships--;
+
+                player1Board.at(yIndex).at(xIndex) = 'X';
+
+                if(player1Ships == 0)
+                    break;
             }
+
+            numberOfMoves = i;
+            turns++;
+
+            if(turns == numberOfMoves/2)
+                break;
         }
 
-        if(player1Lost && player2Lost)
+        if(numberOfMoves % 2 == 0 && numberOfMoves != (moves.size() - 1)) {
+            int xIndex = moves.at(i).first, yIndex = moves.at(i).second;
+                if(player1Board.at(yIndex).at(xIndex) == '#')
+                    player1Ships--;
+
+            player1Board.at(yIndex).at(xIndex) = 'X';
+        }
+
+        if(player1Ships != 0 && player2Ships != 0)
             cout << "draw" << endl;
-        else if(player1Lost)
+        else if(player1Ships == 0)
             cout << "player two wins" << endl;
-        else if(player2Lost)
+        else if(player2Ships == 0)
             cout << "player one wins" << endl;
 
         moves.clear();
         player1Board.clear();
         player2Board.clear();
-        player1Lost = false;
-        player2Lost = false;
-        movesUsed2 = 0;
+        turns = 0;
     }
 
     return 0;
