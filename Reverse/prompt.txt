@@ -1,0 +1,38 @@
+Little Jóna needs a program. The program should read integers and print them in reverse order. Jóna asks for your help.
+
+Input
+
+The first line of input contains the integer 𝑛. Then comes a list of 𝑛 integers, each on its own line.
+
+Output
+
+The list should be printed in reverse order of input.
+
+Sample Input 1          Sample Output 1
+5                       5
+1                       4
+2                       3
+3                       2
+4                       1
+5
+
+Sample Input 2          Sample Output 2
+5                       9
+10                      12
+12                      10
+9
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/ofugsnuid
+
+Problem ID: ofugsnuid
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 1.2 - 1.4
