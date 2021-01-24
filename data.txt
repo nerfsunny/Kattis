@@ -93,3 +93,5 @@ Soylent | Completed | Kattis | C++
 Battleship | In Progress | Kattis | C++
 Watch Out For Those Hailstones! | Completed | Kattis | C++
 Moving Day | Completed | Kattis | C++
+Texture Analysis | Completed | Kattis | C++
+Reverse | Completed | Kattis | C++
