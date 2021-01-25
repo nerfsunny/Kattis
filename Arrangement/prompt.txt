@@ -1,0 +1,54 @@
+One of the things that programming competition organizers have to do is decide which team should be in which room. There are 𝑁 rooms and 𝑀 teams. The rooms are similar in size, so it is best for teams to be divided into rooms as evenly as possible. For example, if there are 𝑁=3 rooms and 𝑀=8 teams, then it is best to put 3 teams in one room, 3 teams in another room, and then the last 2 teams in the last room.
+
+Input
+
+The input consists of two lines. On the first line is an integer 𝑁, and on the second line is an integer 𝑀.
+
+Output
+
+The output should contain 𝑁 lines, one for each room. If 𝑘 teams are to be in room number 𝑖, then line 𝑖 should contain 𝑘 copies of the * symbol.
+
+Explanation of sample cases
+
+The first sample is 𝑁=1 rooms and 𝑀=5 teams. Since there is only one room, all the teams are in that room.
+
+The second sample is the same as the one taken above.
+
+In the third sample, there are 𝑁=5 lounges and 𝑀=33 teams. Here it is best to put 6 teams in two of the rooms, and 7 teams in the other three rooms. Here we also see that order does not matter.
+
+Sample Input 1          Sample Output 1
+1                       *****
+5
+
+Sample Input 2          Sample Output 2
+3                       ***
+8                       ***
+						**
+
+Sample Input 3          Sample Output 3
+5                       *******
+33                      *******
+						******
+						*******
+						******
+
+Sample Output 4         Sample Output 4
+4                       **
+8                       **
+                        **
+                        **
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/upprodun
+
+Problem ID: upprodun
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 1.3 - 1.9
