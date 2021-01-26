@@ -1,0 +1,55 @@
+Over the years, Grandpa Bernie has traveled all over the world. He doesn’t travel that much anymore, but he loves to tell his grandchildren stories from all these trips. He’ll tell them the story from when he went to Israel for the first time, or when he went to Greece for the third time.
+
+His memory works in a funny way. He can easily remember his 𝑘:th trip to a particular country, but he’ll have a hard time remembering in which year he went on that trip. Given a list of all the trips Grandpa Bernie went on, can you answer a number of queries asking in which year he went on his 𝑘:th trip to a particular country?
+
+Input
+
+The input consists of:
+	1. one line with one integer 𝑛 (1≤𝑛≤10^5), the number of trips Grandpa Bernie went on;
+	2. 𝑛 lines each containing the name 𝑠 (1≤|𝑠|≤20) of a country and an integer 𝑦 (1≤𝑦≤10^6) representing a trip to country 𝑠 that Grandpa Bernie went on in year 𝑦;
+	3. one line with one integer 𝑞 (1≤𝑞≤10^5), the number of queries;
+	4. 𝑞 lines each containing the name 𝑠 of a country and an integer 𝑘 representing a query for the 𝑘:th time Grandpa Bernie went to country 𝑠.
+
+Each country name only consists of letters from the English alphabet. It is also guaranteed that, for each query asking for the 𝑘:th trip to country 𝑠, 𝑘 is at least 1 and no greater than the number of times Grandpa Bernie went to country 𝑠. In particular, it is guaranteed that Grandpa Bernie has visited country 𝑠 at least once.
+
+Output
+
+For each query for the 𝑘:th trip Grandpa Bernie went to a country 𝑠, output a single line containing the year in which Grandpa Bernie went on that trip.
+
+Sample Input 1          Sample Output 1
+4                       2015
+Iceland 2016            1982
+Sweden 2015             2016
+Iceland 1982
+Norway 1999
+3
+Sweden 1
+Iceland 1
+Iceland 2
+
+Sample Input 2          Sample Output 2
+4                       2016
+Iceland 2014            2015
+Iceland 2015            2015
+Iceland 2015            2014
+Iceland 2016
+4
+Iceland 4
+Iceland 3
+Iceland 2
+Iceland 1
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/grandpabernie
+
+Problem ID: grandpabernie
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.8
