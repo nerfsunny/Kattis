@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
@@ -30,13 +31,13 @@ class sortByDefense implements Comparator<Pokemon> {
 
 public class iWanna {
     //Goes through pokemonList from [0, maximumPokemon-1] and stores a copy in pokemonTeeam if one does not already exist
-    public static void topPokemon(ArrayList<Pokemon> pokemonList, ArrayList<Pokemon> pokemonTeam, int maximumPokemon) {
+    public static void topPokemon(ArrayList<Pokemon> pokemonList, HashSet<Pokemon> pokemonTeam, int maximumPokemon) {
         //For-loop that grabs the top maximumPokemon in either health, attack, or defense (depending on how the given pokemonList was sorted)
         for(int i = 0; i < maximumPokemon; i++)
-            //Checks if Pokemon is already in the list; if it is not, then it stores it in pokemonTeam
-            if(!pokemonTeam.contains(pokemonList.get(i)))
-                pokemonTeam.add(pokemonList.get(i));
+            //Stores pokemon if it is not already in the set; otherwise, it does nothing
+            pokemonTeam.add(pokemonList.get(i));
     }
+
     public static void main(String[] args) {
         //Initializing Scanner object
         Scanner scan = new Scanner(System.in);
@@ -48,10 +49,11 @@ public class iWanna {
         int numberOfPokemon = scan.nextInt(), maximumPokemon = scan.nextInt();
 
         /*Initializing containers
-          pokemonList stores all of the Pokemon
-          pokemonTeam stores the best Pokemon(s) in a given state
+          pokemonList stores all of the Pokemon, sets initial capacity to the size of the given input
+          pokemonTeam stores the best Pokemon(s) in a given state, sets initial capacity to the size of the given input
         */
-        ArrayList<Pokemon> pokemonList = new ArrayList<Pokemon>(numberOfPokemon), pokemonTeam = new ArrayList<Pokemon>();
+        ArrayList<Pokemon> pokemonList = new ArrayList<Pokemon>(numberOfPokemon);
+        HashSet<Pokemon> pokemonTeam = new HashSet<Pokemon>(numberOfPokemon);
 
         //For-loop that iterates through the inputs, creates a Pokemon, and stores it in pokemonList
         for(int i = 0; i < numberOfPokemon; i++) 
