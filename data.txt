@@ -98,4 +98,4 @@ Reverse | Completed | Kattis | C++
 Arrangement | Completed | Kattis | C++
 Granpa Bernie | In Progress | Kattis | C++
 ICPC Tean Selection | In Progress | Kattis | C++
-
+Symmetric Order | Completed | Kattis | C++
