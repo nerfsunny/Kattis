@@ -1,0 +1,61 @@
+RILEY VASHTEE: [reading from display] Find the next number in the sequence:
+
+313 331 367 ...? What?
+
+THE DOCTOR: 379.
+
+MARTHA JONES: What?
+
+THE DOCTOR: It’s a sequence of happy primes – 379.
+
+MARTHA JONES: Happy what?
+
+THE DOCTOR: Any number that reduces to one when you take the sum of the square of its digits and continue iterating it until it yields 1 is a happy number. Any number that doesn’t, isn’t. A happy prime is both happy and prime.
+
+THE DOCTOR: I dunno, talk about dumbing down. Don’t they teach recreational mathematics anymore?
+
+Excerpted from “Dr. Who,” Episode 42 (2007).
+
+The number 7 is certainly prime. But is it happy?
+
+	7 → 7^2 = 49
+	49 → 4^2 + 9^2 = 97
+	97 → 9^2 + 7^2 = 130
+	130 → 1^2 + 3^2 + 0^2 = 10
+	10 → 1^2 + 0^2 = 1
+
+It is happy :-) As it happens, 7 is the smallest happy prime. Please note that for the purposes of this problem, 1 is not prime.
+
+For this problem you will write a program to determine if a number is a happy prime.
+
+Input
+
+The first line of input contains a single integer 𝑃, (1≤𝑃≤10000), which is the number of data sets that follow. Each data set should be processed identically and independently.
+
+Each data set consists of a single line of input. It contains the data set number, 𝐾, followed by the happy prime candidate, 𝑚, (1≤𝑚≤10000).
+
+Output
+
+For each data set there is a single line of output. The single output line consists of the data set number, 𝐾, followed by a single space followed by the candidate, 𝑚, followed by a single space, followed by YES or NO, indicating whether 𝑚 is a happy prime.
+
+Sample Input 1          Sample Output 1
+4                       1 1 NO
+1 1                     2 7 YES
+2 7                     3 383 YES
+3 383                   4 1000 NO
+4 1000
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/happyprime
+
+Problem ID: happyprime
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.5
