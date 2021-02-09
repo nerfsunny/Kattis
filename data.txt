@@ -99,7 +99,7 @@ Arrangement | Completed | Kattis | C++
 Granpa Bernie | In Progress | Kattis | C++
 ICPC Tean Selection | In Progress | Kattis | C++
 Symmetric Order | Completed | Kattis | C++
-Happy Prime | In Progress | Kattis | C++
+Happy Prime | Completed | Kattis | C++
 Mars Window | Completed | Kattis | C++
 Beehives | In Progress | Kattis | C++
 Election2 | In Progress | Kattis | C++

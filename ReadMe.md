@@ -48,7 +48,7 @@ Number | Problem | Status | Source | Languages(s)
 42 | Golf Bot | In Progress | Kattis | C++
 43 | Granpa Bernie | In Progress | Kattis | C++
 44 | Guessing Game | Completed | Kattis | C++
-45 | Happy Prime | In Progress | Kattis | C++
+45 | Happy Prime | Completed | Kattis | C++
 46 | Hardware | Completed | Kattis | C++
 47 | Honour Thy (Apaxian) Parent | Completed | Kattis | C++
 48 | I Wanna Be The Very Best | Completed | Kattis | Java
@@ -124,5 +124,5 @@ Reddit | 2
 Status | Number of Problems
 --- | ---
 Planned | 7
-In Progress | 29
-Completed | 68
+In Progress | 28
+Completed | 69
