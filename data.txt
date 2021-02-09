@@ -102,3 +102,4 @@ Symmetric Order | Completed | Kattis | C++
 Happy Prime | In Progress | Kattis | C++
 Mars Window | Completed | Kattis | C++
 Beehives | In Progress | Kattis | C++
+Election2 | In Progress | Kattis | C++
