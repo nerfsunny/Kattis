@@ -47,7 +47,7 @@ Number | Problem | Status | Source | Languages(s)
 41 | Fluortanten | In Progress | Kattis | C++
 42 | Game Rank | In Progress | Kattis | C++
 43 | Golf Bot | In Progress | Kattis | C++
-44 | Granpa Bernie | In Progress | Kattis | C++
+44 | Granpa Bernie | Completed | Kattis | C++
 45 | Guessing Game | Completed | Kattis | C++
 46 | Happy Prime | Completed | Kattis | C++
 47 | Hardware | Completed | Kattis | C++
@@ -125,5 +125,5 @@ Reddit | 2
 Status | Number of Problems
 --- | ---
 Planned | 7
-In Progress | 29
-Completed | 69
+In Progress | 28
+Completed | 70

@@ -96,7 +96,7 @@ Moving Day | Completed | Kattis | C++
 Texture Analysis | Completed | Kattis | C++
 Reverse | Completed | Kattis | C++
 Arrangement | Completed | Kattis | C++
-Granpa Bernie | In Progress | Kattis | C++
+Granpa Bernie | Completed | Kattis | C++
 ICPC Tean Selection | In Progress | Kattis | C++
 Symmetric Order | Completed | Kattis | C++
 Happy Prime | Completed | Kattis | C++
