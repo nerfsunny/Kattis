@@ -104,3 +104,5 @@ Mars Window | Completed | Kattis | C++
 Beehives | In Progress | Kattis | C++
 Election2 | In Progress | Kattis | C++
 Cookie Selection | In Progress | Kattis | C++
+Conversatin Log | In Progress | Kattis | C++
+Mastering Mastermind | In Progress | Kattis | C++
