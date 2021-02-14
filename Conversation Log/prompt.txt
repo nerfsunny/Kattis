@@ -1,0 +1,44 @@
+Popular social networking site My+Din is struggling to manage its many popular forums. Recent regulation requires the site to report users engaged in conversations about certain topics. The sheer number of users means manual monitoring is too costly and so the site has asked its many interns to come up with a solution.
+
+One intern has theorized that conversations about any given topic will see the same key words used over and over. If the most used words can be identified perhaps manual investigation can be directed towards appropriate forums.
+
+Input
+
+One line containing a single integer 𝑀 (1≤𝑀≤104), the number of messages.
+
+𝑀 more lines each beginning with a user’s name of no more than 20 characters and continuing with the content of that user’s message all in lower case. The total number of characters across all messages, including spaces, will not exceed 2⋅10^6.
+
+Output
+
+Several words, one per line, listing the words used by every single user on the forum, ordered from most to least used and in case of a tie in alphabetical order. If there are no such words, output ALL CLEAR.
+
+Sample Input 1                              Sample Output 1
+8                                           no
+Jepson no no no no nobody never             nobody
+Ashley why ever not                         never
+Marcus no not never nobody
+Bazza no never know nobody
+Hatty why no nobody
+Hatty nobody never know why nobody
+Jepson never no nobody
+Ashley never never nobody no
+
+Sample Input 2                              Sample Output 2
+2                                           ALL CLEAR
+Villain avast
+Scoundrel ahoy
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/conversationlog
+
+Problem ID: conversationlog
+
+CPU Time limit: 2 seconds
+
+Memory limit: 1024 MB
+
+Difficulty: 2.7
