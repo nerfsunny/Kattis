@@ -24,7 +24,8 @@ int countVotes(unordered_map<string, pair<string, int>>& candidates, const int n
 	for(int i = 0; i < numberOfVotes; i++) {
 		getline(cin, candidate);
 
-		get<1>(candidates.at(candidate))++;
+		if(candidates.find(candidate) != candidates.end())
+		    get<1>(candidates.at(candidate))++;
 	}
 
 	return numberOfVotes;
@@ -61,4 +62,6 @@ int main(int argc, char** argv) {
 	numberOfVotes = countVotes(candidates, stoi(size));
 
 	determineWinner(candidates, numberOfVotes, numberOfCandidates);
+	
+	return 0;
 }
