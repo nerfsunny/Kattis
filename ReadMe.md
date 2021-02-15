@@ -90,42 +90,44 @@ Number | Problem | Status | Source | Languages(s)
 84 | Self-Similar String | In Progress | Kattis | C++
 85 | Shiritori | Completed | Kattis | Java
 86 | Shopaholic | In Progress | Kattis | Java
-87 | Simon Says | Completed | Kattis | C++
-88 | Simple Arithmetic | In Progress | Kattis | C++
-89 | Simplicity | In Progress | Kattis | C++
-90 | Smallest Multiple | In Progress | Kattis | C++, Java
-91 | Soft Passwords | Completed | Kattis | Java
-92 | Sort | Completed | Kattis | C++
-93 | Soylent | Completed | Kattis | C++
-94 | Sretan | In Progress | Kattis | C++
-95 | Symmetric Order | Completed | Kattis | C++
-96 | Texture Analysis | Completed | Kattis | C++
-97 | Thanos | Completed | Kattis | C++
-98 | The Key to Cryptography | Completed | Kattis | C++
-99 | The Last Problem | Completed | Kattis | C#
-100 | To Lower | Completed | Kattis | C++
-101 | Umm Code | In Progress | Kattis | C++
-102 | Un-bear-able Zoo | Completed | Kattis | C++
-103 | Watch Out For Those Hailstones! | Completed | Kattis | C++
-104 | Which Base Is It Anyway? | Completed | Kattis | C++
-105 | Word Cloud | Completed | Kattis | C++
-106 | Word Hyphenation by Computer | Planned | Reddit | N/A
-107 | Yoda | Completed | Kattis | C++
+87 | Shopping List (Easy) | Completed | Kattis | C++
+88 | Shopping List | Completed | Kattis | C++
+89 | Simon Says | Completed | Kattis | C++
+90 | Simple Arithmetic | In Progress | Kattis | C++
+91 | Simplicity | In Progress | Kattis | C++
+92 | Smallest Multiple | In Progress | Kattis | C++, Java
+93 | Soft Passwords | Completed | Kattis | Java
+94 | Sort | Completed | Kattis | C++
+95 | Soylent | Completed | Kattis | C++
+96 | Sretan | In Progress | Kattis | C++
+97 | Symmetric Order | Completed | Kattis | C++
+98 | Texture Analysis | Completed | Kattis | C++
+99 | Thanos | Completed | Kattis | C++
+100 | The Key to Cryptography | Completed | Kattis | C++
+101 | The Last Problem | Completed | Kattis | C#
+102 | To Lower | Completed | Kattis | C++
+103 | Umm Code | In Progress | Kattis | C++
+104 | Un-bear-able Zoo | Completed | Kattis | C++
+105 | Watch Out For Those Hailstones! | Completed | Kattis | C++
+106 | Which Base Is It Anyway? | Completed | Kattis | C++
+107 | Word Cloud | Completed | Kattis | C++
+108 | Word Hyphenation by Computer | Planned | Reddit | N/A
+109 | Yoda | Completed | Kattis | C++
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 87
+C++ | 89
 Java | 15
 C# | 1
 
 Source | Number of Problems
 --- | ---
-Kattis | 105
+Kattis | 107
 Reddit | 2
 
 Status | Number of Problems
 --- | ---
 Planned | 7
 In Progress | 30
-Completed | 70
+Completed | 72

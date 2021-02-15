@@ -106,3 +106,5 @@ Election2 | In Progress | Kattis | C++
 Cookie Selection | In Progress | Kattis | C++
 Conversatin Log | In Progress | Kattis | C++
 Mastering Mastermind | In Progress | Kattis | C++
+Shopping List (Easy) | Completed | Kattis | C++
+Shopping List | Completed | Kattis | C++
