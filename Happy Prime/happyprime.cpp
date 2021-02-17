@@ -32,7 +32,7 @@ ull calculateSum(ull num) {
 //Checks if the number is prime or not; Returns false if it is prime (or true if it is not prime)
 bool isNotPrime(ull num) {
 	//If the num is even, then it returns true and exits the method
-	if(num % 2 == 0)
+	if(num >= 4 && num % 2 == 0)
 		return true;
 
 	/* Checks if any number in the range [3, sqrt(num)] is a factor of num; increments by 2 as the number tested here would be odd 
@@ -107,4 +107,6 @@ int main(int argc, char** argv) {
 		else
 			printf("%i %i %s\n", tcase, num, "NO");
 	}
+	
+	return 0;
 }
