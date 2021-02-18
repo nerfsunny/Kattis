@@ -9,8 +9,6 @@
 
 using namespace std;
 
-<<<<<<< HEAD
-=======
 bool customSortParameters(const pair<string, int>& word1, const pair<string, int>& word2) {
     if(word2.second != word1.second)
         return word2.second < word1.second;
@@ -18,7 +16,6 @@ bool customSortParameters(const pair<string, int>& word1, const pair<string, int
         return word2.first < word1.first;
 }
 
->>>>>>> 7907ab0... Current progress on problem. Currently passes 3/11 tests. Getting 'Wrong Answer'
 void countFrequencyOfWords(unordered_map<string, set<string>>& words, unordered_map<string, int>& frequencyWords, set<string>& usernames) {
     string line, username, word;
     stringstream ss;
@@ -64,12 +61,6 @@ int main(int argc, char** argv) {
     countFrequencyOfWords(words, frequencyWords, users);
     vector<pair<string, int>> frequentWords = determineFrequencyOfWords(words, frequencyWords, users);
 
-<<<<<<< HEAD
-	if(frequentWords.size() != 0)
-		cout << "More work needs to be done" << endl;
-	else
-		cout << "ALL CLEAR" << endl;
-=======
     if(frequentWords.size() != 0) {
         sort(frequentWords.begin(), frequentWords.end(), customSortParameters);
 
@@ -78,7 +69,6 @@ int main(int argc, char** argv) {
     }
     else
         cout << "ALL CLEAR" << endl;
->>>>>>> 7907ab0... Current progress on problem. Currently passes 3/11 tests. Getting 'Wrong Answer'
 
     return 0;
 }
