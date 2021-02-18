@@ -9,6 +9,13 @@
 
 using namespace std;
 
+bool customSortParameters(const pair<string, int>& word1, const pair<string, int>& word2) {
+	if(word2.second != word1.second)
+		return word2.second < word1.second;
+	else
+		return word2.first < word1.first;
+}
+
 void countFrequencyOfWords(unordered_map<string, set<string>>& words, unordered_map<string, int>& frequencyWords, set<string>& usernames) {
 	string line, username, word;
 	stringstream ss;
@@ -54,8 +61,12 @@ int main(int argc, char** argv) {
 	countFrequencyOfWords(words, frequencyWords, users);
 	vector<pair<string, int>> frequentWords = determineFrequencyOfWords(words, frequencyWords, users);
 
-	if(frequentWords.size() != 0)
-		cout << "More work needs to be done" << endl;
+	if(frequentWords.size() != 0) {
+		sort(frequentWords.begin(), frequentWords.end(), customSortParameters);
+
+		for(const pair<string, int>& word : frequentWords)
+			cout << word.first << endl;
+	}
 	else
 		cout << "ALL CLEAR" << endl;
 
