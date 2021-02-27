@@ -1,0 +1,58 @@
+Theta has been learning about powers of 2 in school. She notices that some numbers when written out contain powers of 2 in their digit representation: for instance, 12560 contains 256 which is a power of 2. She has been wondering how many such numbers there are.
+
+Can you write a program that counts how many numbers contain a given power of 2?
+
+Input (Easy)
+
+The input consists of a single line with two integers 𝑛 and 𝑒 (0≤𝑛≤15000000,0≤𝑒≤25).
+
+Input (Hard)
+
+The input consists of a single line with two integers 𝑛 and 𝑒 (0≤𝑛≤9⋅1018,0≤𝑒≤62).
+
+Output
+
+Output a single integer that is equal to the number of distinct integers 𝑘 (0 ≤ 𝑘 ≤ 𝑛) whose decimal representation contains the digits of 2^𝑒 as a substring.
+
+Sample Input 1               Sample Output 1
+1000000 1                    468559
+
+Sample Input 2               Sample Output 2
+1000000 5                    49401
+
+Sample Input 3               Sample Output 3
+1000000 16                   20
+
+Sample Input 4 (Hard)        Sample Output 4
+9000000000000000000 62       1
+
+Sample Input 5 (Hard)        Sample Output 5
+5432123456789876543 33       20
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/powersof2easy
+
+Problem ID: powersof2easy
+
+CPU Time limit: 4 seconds
+
+Memory limit: 1024 MB
+
+Difficulty: 3.5
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/powersof2
+
+Problem ID: powersof2
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 6.8
