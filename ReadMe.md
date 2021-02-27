@@ -66,16 +66,16 @@ Number | Problem | Status | Source | Languages(s)
 60 | Missing Numbers | Completed | Kattis | C++
 61 | Moving Day | Completed | Kattis | C++
 62 | Ninety-Nine | Completed | Kattis | C++
-63 | Packing Stacks of Boxes | Planned | Reddit | N/A
-64 | Parsing Hex | Completed | Kattis | C++
-65 | Password Hacking | Planned | Kattis | N/A
-66 | Perfect Pth Power | Planned | Kattis | N/A
-67 | Permutation Encryption | Completed | Kattis | C++
-68 | Permuted Arithmetic Sequence | Completed | Kattis | C++
-69 | Pig Latin | Completed | Kattis | C++, Java
-70 | Pizza Crust | Completed | Kattis | C++
-71 | Playfair Cipher | Completed | Kattis | C++
-72 | Popular Vote | In Progress | Kattis | C++
+63 | Parsing Hex | Completed | Kattis | C++
+64 | Password Hacking | Planned | Kattis | N/A
+65 | Perfect Pth Power | Planned | Kattis | N/A
+66 | Permutation Encryption | Completed | Kattis | C++
+67 | Permuted Arithmetic Sequence | Completed | Kattis | C++
+68 | Pig Latin | Completed | Kattis | C++, Java
+69 | Pizza Crust | Completed | Kattis | C++
+70 | Playfair Cipher | Completed | Kattis | C++
+71 | Popular Vote | In Progress | Kattis | C++
+72 | Power of 2 (Easy) | Completed | Kattis | C++
 73 | Primary Arithmetic | Completed | Kattis | C++
 74 | Printing Costs | Completed | Kattis | C++
 75 | Quadrant Selection | Completed | Kattis | C++
@@ -111,23 +111,21 @@ Number | Problem | Status | Source | Languages(s)
 105 | Watch Out For Those Hailstones! | Completed | Kattis | C++
 106 | Which Base Is It Anyway? | Completed | Kattis | C++
 107 | Word Cloud | Completed | Kattis | C++
-108 | Word Hyphenation by Computer | Planned | Reddit | N/A
-109 | Yoda | Completed | Kattis | C++
+108 | Yoda | Completed | Kattis | C++
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 89
+C++ | 90
 Java | 15
 C# | 1
 
 Source | Number of Problems
 --- | ---
-Kattis | 107
-Reddit | 2
+Kattis | 108
 
 Status | Number of Problems
 --- | ---
-Planned | 7
+Planned | 5
 In Progress | 30
-Completed | 72
+Completed | 73

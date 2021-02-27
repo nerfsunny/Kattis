@@ -5,10 +5,8 @@ Arithmetic | In Progress | Kattis | C++
 Bats! | Planned | Kattis | N/A
 Game Rank | In Progress | Kattis | C++
 Lost in Translation | Planned | Kattis | N/A
-Packing Stacks of Boxes | Planned | Reddit | N/A
 Perfect Pth Power | Planned | Kattis | N/A
 Soft Passwords | Completed | Kattis | Java
-Word Hyphenation by Computer | Planned | Reddit | N/A
 Combination Lock | In Progress | Kattis | C++
 Guessing Game | Completed | Kattis | C++
 Golf Bot | In Progress | Kattis | C++
@@ -108,3 +106,4 @@ Conversatin Log | In Progress | Kattis | C++
 Mastering Mastermind | In Progress | Kattis | C++
 Shopping List (Easy) | Completed | Kattis | C++
 Shopping List | Completed | Kattis | C++
+Power of 2 (Easy) | Completed | Kattis | C++
