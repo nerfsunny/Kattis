@@ -107,3 +107,5 @@ Mastering Mastermind | In Progress | Kattis | C++
 Shopping List (Easy) | Completed | Kattis | C++
 Shopping List | Completed | Kattis | C++
 Power of 2 (Easy) | Completed | Kattis | C++
+Spelling Bee | Completed | Kattis | C++, Java
+Best Compression Ever | In Progress | Kattis | C++
