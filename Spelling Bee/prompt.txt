@@ -1,0 +1,64 @@
+The New York Times publishes a daily puzzle called the “Spelling Bee.” In this puzzle, 7 letters are shown in a hexagonal arrangement of 6 letters around a center letter. The task is to come up with as many words as possible that
+	• contain only letters that are displayed in the hexagon,
+	• are at least of length 4, and
+	• contain the center letter.
+
+A letter may be used more than once, and not all letters need to be used.
+
+After playing for a while, you get stuck, but then you remind yourself that the Linux distribution on your computer comes with a machine-readable file of 102305 dictionary words in /usr/share/dict/words!
+
+You decide that even if you can’t excel at the Spelling Bee you can still excel at programming, so you decide to write a program that finds all solutions to a Spelling Bee puzzle from your dictionary.
+
+Input
+
+The input consists of a single test case, which starts with a line with 7 distinct lowercase English letters. The first of these letters is the center letter. The next line contains an integer 𝑛 (1≤𝑛≤102305), the size of the dictionary. This line is followed by 𝑛 lines, each containing a dictionary word of 𝑙 lowercase English letters (1≤𝑙≤24).
+
+Output
+
+Output the word list matching the Spelling Bee puzzle in the order in which they appear in the dictionary. You are guaranteed that at least one dictionary entry will match.
+
+Sample Input 1          Sample Output 1
+drulyag                 dryad
+27                      duly
+dryad                   lard
+duly                    dryly
+spelling                gradual
+multiplexed             gradually
+janna                   dual
+lard                    dullard
+dryly                   grad
+the                     gladly
+instances               drug
+gradual                 drag
+gradually               yard
+dual                    daddy
+inimically
+off
+dullard
+grad
+equipage
+gladly
+mauritania
+drug
+a
+drag
+pickering
+yard
+daddy
+on
+lallygag
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/spellingbee
+
+Problem ID: spellingbee
+
+CPU Time limit: 3 seconds
+
+Memory limit: 1024 MB
+
+Difficulty: 2.2

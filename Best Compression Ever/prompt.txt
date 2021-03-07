@@ -1,0 +1,37 @@
+Being educated in Computer Science and Mathematics is not always easy. Especially not if you have “friends” who repeatedly insist on showing you their new “proofs” that P equals NP, that the Riemann Hypothesis is true, and so on.
+
+One of your friends recently claims to have found a fantastic new compression algorithm. As an example of its amazing performance, your friend has told you that every file in your precious collection of random bit strings after compression would be at most 𝑏 bits long! Naturally, you find this a bit hard to believe, so you want to determine whether it is even theoretically possible for this to be true.
+
+Your collection of random bit strings consists of 𝑁 files, no two of which are identical, and each of which is exactly 1000 bits long.
+
+Input
+
+The input consists of two integers 𝑁 (1≤𝑁≤1015) and 𝑏 (0≤𝑏≤50), giving the number of files in your collection and the maximum number of bits a compressed file is allowed to have.
+
+Output
+
+Output a line containing either “yes” if it is possible to compress all the 𝑁 files in your collection into files of size at most 𝑏 bits, or “no” otherwise.
+
+Sample Output 1         Sample Output 1
+13 3                    yes
+
+Sample Input 2          Sample Output 2
+1 0                     yes
+
+Sample Input 3          Sample Output 3
+31415926535897 40       no
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/bestcompression
+
+Problem ID: bestcompression
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.1
