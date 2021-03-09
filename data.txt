@@ -109,3 +109,5 @@ Shopping List | Completed | Kattis | C++
 Power of 2 (Easy) | Completed | Kattis | C++
 Spelling Bee | Completed | Kattis | C++, Java
 Best Compression Ever | In Progress | Kattis | C++
+Not Amused | Completed | Completed | Kattis | C++
+Linden Mayor System | Completed | Kattis | C++
