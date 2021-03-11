@@ -46,7 +46,7 @@ Number | Problem | Status | Source | Languages(s)
 40 | Engineering English | Completed | Kattis | C++
 41 | Enlarging Hash Tables | Completed | Kattis | C++
 42 | FBI Universal Control Numbers | Completed | Kattis | C++
-43 | Fluortanten | In Progress | Kattis | C++
+43 | Fluortanten | Completed | Kattis | C++
 44 | Game Rank | In Progress | Kattis | C++
 45 | Golf Bot | In Progress | Kattis | C++
 46 | Granpa Bernie | Completed | Kattis | C++
@@ -131,5 +131,5 @@ Kattis | 112
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 31
-Completed | 76
+In Progress | 30
+Completed | 77

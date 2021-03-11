@@ -80,7 +80,7 @@ Reverse Binary Numbers | Completed | Kattis | C++
 Saving Daylight | Completed | Kattis | C++
 To Lower | Completed | Kattis | C++
 Continuous Median | In Progress | Kattis | C++
-Fluortanten | In Progress | Kattis | C++
+Fluortanten | Completed | Kattis | C++
 The Last Problem | Completed | Kattis | C#
 Competitive Arcade Basketball | Completed | Kattis | C++
 Beekeeper | Completed | Kattis | C++
