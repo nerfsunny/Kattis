@@ -68,7 +68,7 @@ Number | Problem | Status | Source | Languages(s)
 62 | Missing Numbers | Completed | Kattis | C++
 63 | Moving Day | Completed | Kattis | C++
 64 | Ninety-Nine | Completed | Kattis | C++
-65 | Not Amused | Completed | Completed | Kattis | C++
+65 | Not Amused | Completed | Kattis | C++
 66 | Parsing Hex | Completed | Kattis | C++
 67 | Password Hacking | Planned | Kattis | N/A
 68 | Perfect Pth Power | Planned | Kattis | N/A
