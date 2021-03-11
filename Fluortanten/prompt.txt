@@ -41,4 +41,4 @@ CPU Time limit: 1 second
 
 Memory limit: 1024 MB
 
-Difficulty: 4.0
+Difficulty: 1.4 - 3.5
