@@ -111,3 +111,4 @@ Spelling Bee | Completed | Kattis | C++, Java
 Best Compression Ever | In Progress | Kattis | C++
 Not Amused | Completed | Kattis | C++
 Linden Mayor System | Completed | Kattis | C++
+Phone List | In Progress | Kattis | C++
