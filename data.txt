@@ -114,3 +114,4 @@ Linden Mayor System | Completed | Kattis | C++
 Phone List | In Progress | Kattis | C++
 Jackpot | In Progress | Kattis | C++
 8 Queens | In Progress | Kattis | C++
+Missing Number | Completed | Kattis | C++
