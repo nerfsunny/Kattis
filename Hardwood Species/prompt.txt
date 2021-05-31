@@ -1,0 +1,61 @@
+Hardwoods are the botanical group of trees that have broad leaves, produce a fruit or nut, and generally go dormant in the winter.
+
+America’s temperate climates produce forests with hundreds of hardwood species – trees that share certain biological characteristics. Although oak, maple and cherry all are types of hardwood trees, for example, they are different species. Together, all the hardwood species represent 40 percent of the trees in the United States.
+
+On the other hand, softwoods, or conifers, from the Latin word meaning “cone-bearing,” have needles. Widely available US softwoods include cedar, fir, hemlock, pine, redwood, spruce and cypress. In a home, the softwoods are used primarily as structural lumber such as 2×4s and 2×6s, with some limited decorative applications.
+
+Using satellite imaging technology, the Department of Natural Resources has compiled an inventory of every tree standing on a particular day. You are to compute the total fraction of the tree population represented by each species.
+
+Input
+
+Input to your program consists of a list of the species of every tree observed by the satellite; one tree per line. Names use onlyl printable ASCII characters (32-126) and neither begin nor end with space. No name exceeds 20 characters. There are no more than 10000 species and no more than 1000000 trees.
+
+Output
+
+Print the name of each species represented in the population, in alphabetical order (by the ASCII ordering), followed by the percentage of the population it represents, accurate to an absolute error of at most 10−4.
+
+Sample Input 1          Sample Output 1
+Red Alder               Ash 13.793103
+Ash                     Aspen 3.448276
+Aspen                   Basswood 3.448276
+Basswood                Beech 3.448276
+Ash                     Black Walnut 3.448276
+Beech                   Cherry 3.448276
+Yellow Birch            Cottonwood 3.448276
+Ash                     Cypress 3.448276
+Cherry                  Gum 3.448276
+Cottonwood              Hackberry 3.448276
+Ash                     Hard Maple 3.448276
+Cypress                 Hickory 3.448276
+Red Elm                 Pecan 3.448276
+Gum                     Poplan 3.448276
+Hackberry               Red Alder 3.448276
+White Oak               Red Elm 3.448276
+Hickory                 Red Oak 6.896552
+Pecan                   Sassafras 3.448276
+Hard Maple              Soft Maple 3.448276
+White Oak               Sycamore 3.448276
+Soft Maple              White Oak 10.344828
+Red Oak                 Willow 3.448276
+Red Oak                 Yellow Birch 3.448276
+White Oak
+Poplan
+Sassafras
+Sycamore
+Black Walnut
+Willow
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/hardwoodspecies
+
+Problem ID: hardwoodspecies
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.7
