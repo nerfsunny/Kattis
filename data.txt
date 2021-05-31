@@ -117,3 +117,7 @@ Jackpot | In Progress | Kattis | C++
 Missing Number | Completed | Kattis | C++
 Victory Through Synergy | In Progress | Kattis | C++
 Anagram Counting | Completed | Kattis | Java
+Problem Classification | Completed | Kattis | C++
+Harshad Numbers | Completed | Kattis | C++
+Hardwood Species | Completed | Kattis | C++
+Goldbach's Conjecture | Completed | Kattis | C++
