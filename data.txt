@@ -121,3 +121,6 @@ Problem Classification | Completed | Kattis | C++
 Harshad Numbers | Completed | Kattis | C++
 Hardwood Species | Completed | Kattis | C++
 Goldbach's Conjecture | Completed | Kattis | C++
+Repeating Decimal | In Progress | Kattis | C++
+Reduced ID Numbers | In Progress | Kattis | C++
+Horror Film Night | In Progress | Kattis | C++
