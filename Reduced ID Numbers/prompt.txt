@@ -1,0 +1,34 @@
+T. Chur teaches various groups of students at university U. Every U-student has a unique Student Identification Number (SIN). A SIN 𝑠 is an integer in the range 0≤𝑠≤MaxSIN with MaxSIN=106−1. T. Chur finds this range of SINs too large for identification within her groups. For each group, she wants to find the smallest positive integer 𝑚, such that within the group all SINs reduced modulo 𝑚 are unique.
+
+Input
+
+The first line of input contains the integer 𝐺 (1≤𝐺≤300): the number of students in the group. The following 𝐺 lines each contain one SIN. The SINs are distinct, though not necessarily sorted.
+
+Output
+
+Output one line containing the smallest modulus 𝑚, such that all SINs reduced modulo 𝑚 are distinct.
+
+Sample Input 1          Sample Output 1
+1                       1
+124866
+
+Sample Input 2          Sample Output 2
+3                       8
+124866
+111111
+987651
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/reducedidnumbers
+
+Problem ID: anagramcounting
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 2.9
