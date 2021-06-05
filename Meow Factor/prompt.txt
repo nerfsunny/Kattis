@@ -1,0 +1,32 @@
+Among many of the Catland club kittens it is important to keep a paw on the pulse of the latest fashions and trends in order to stay hip. When a new number is discovered in Catland, its coolness is primarily determined by its meow factor. For a positive integer 𝑛, its meow factor is the largest integer 𝑚 such that 𝑛 is evenly divisible by 𝑚 nine times (once for each life of a cat). We say that 𝑛 is divisible by 𝑚 nine times if, starting with 𝑛, you can divide it by 𝑚 without a remainder, take the result of the division and again divide it by 𝑚 without a remainder, and so on, dividing by 𝑚 nine times in total. 
+
+While some cats are naturally chic and have an innate ability to see the meow factor of numbers, others who struggle to stay in vogue can not even tell the difference between 3584 and 4711 (the former clearly having a higher meow factor). Can you help those poor unfortunate cats lacking a sense of style, by writing a program to determine the meow factor of a number?
+
+Input
+
+The input contains a single integer 𝑛 (1≤𝑛≤263−1).
+
+Output
+
+Output the meow factor of 𝑛.
+
+Sample Input 1          Sample Output 1
+3584                    2
+
+Sample Input 2          Sample Output 2
+4711                    1
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/meowfactor
+
+Problem ID: meowfactor
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 3.4
