@@ -72,79 +72,81 @@ Number | Problem | Status | Source | Languages(s)
 66 | Luhn's Checksum Algorithm | Completed | Kattis | C++
 67 | Mars Window | Completed | Kattis | C++
 68 | Mastering Mastermind | In Progress | Kattis | C++
-69 | Missing Number | Completed | Kattis | C++
-70 | Missing Numbers | Completed | Kattis | C++
-71 | Moving Day | Completed | Kattis | C++
-72 | Ninety-Nine | Completed | Kattis | C++
-73 | Not Amused | Completed | Kattis | C++
-74 | Parsing Hex | Completed | Kattis | C++
-75 | Password Hacking | Planned | Kattis | N/A
-76 | Perfect Pth Power | Planned | Kattis | N/A
-77 | Permutation Encryption | Completed | Kattis | C++
-78 | Permuted Arithmetic Sequence | Completed | Kattis | C++
-79 | Phone List | In Progress | Kattis | C++
-80 | Pig Latin | Completed | Kattis | C++, Java
-81 | Pizza Crust | Completed | Kattis | C++
-82 | Playfair Cipher | Completed | Kattis | C++
-83 | Popular Vote | In Progress | Kattis | C++
-84 | Power of 2 (Easy) | Completed | Kattis | C++
-85 | Primary Arithmetic | Completed | Kattis | C++
-86 | Printing Costs | Completed | Kattis | C++
-87 | Problem Classification | Completed | Kattis | C++
-88 | Quadrant Selection | Completed | Kattis | C++
-89 | Quick Brown Fox | Completed | Kattis | C++
-90 | Raid Teams | In Progress | Kattis | Java
-91 | Rational Arithmetic | Completed | Kattis | Java
-92 | Reduced ID Numbers | In Progress | Kattis | C++
-93 | Repeating Decimal | In Progress | Kattis | C++
-94 | Reverse | Completed | Kattis | C++
-95 | Reverse Binary Numbers | Completed | Kattis | C++
-96 | Roll Call | Completed | Kattis | C++
-97 | Saving Daylight | Completed | Kattis | C++
-98 | Saving Princess Peach | Completed | Kattis | C++
-99 | Self-Similar String | In Progress | Kattis | C++
-100 | Shiritori | Completed | Kattis | Java
-101 | Shopaholic | In Progress | Kattis | Java
-102 | Shopping List (Easy) | Completed | Kattis | C++
-103 | Shopping List | Completed | Kattis | C++
-104 | Simon Says | Completed | Kattis | C++
-105 | Simple Arithmetic | In Progress | Kattis | C++
-106 | Simplicity | In Progress | Kattis | C++
-107 | Smallest Multiple | In Progress | Kattis | C++, Java
-108 | Soft Passwords | Completed | Kattis | Java
-109 | Sort | Completed | Kattis | C++
-110 | Soylent | Completed | Kattis | C++
-111 | Speed Limit | Completed | Kattis | C++
-112 | Spelling Bee | Completed | Kattis | C++, Java
-113 | Sretan | In Progress | Kattis | C++
-114 | Symmetric Order | Completed | Kattis | C++
-115 | Synchronizing Lists | Completed | Kattis | C++
-116 | Texture Analysis | Completed | Kattis | C++
-117 | Thanos | Completed | Kattis | C++
-118 | The Key to Cryptography | Completed | Kattis | C++
-119 | The Last Problem | Completed | Kattis | C#
-120 | To Lower | Completed | Kattis | C++
-121 | Umm Code | In Progress | Kattis | C++
-122 | Un-bear-able Zoo | Completed | Kattis | C++
-123 | Victory Through Synergy | In Progress | Kattis | C++
-124 | Watch Out For Those Hailstones! | Completed | Kattis | C++
-125 | Which Base Is It Anyway? | Completed | Kattis | C++
-126 | Word Cloud | Completed | Kattis | C++
-127 | Yoda | Completed | Kattis | C++
+69 | Meow Factor | In Progress | Kattis | C++
+70 | Missing Number | Completed | Kattis | C++
+71 | Missing Numbers | Completed | Kattis | C++
+72 | Moving Day | Completed | Kattis | C++
+73 | Ninety-Nine | Completed | Kattis | C++
+74 | Not Amused | Completed | Kattis | C++
+75 | Parsing Hex | Completed | Kattis | C++
+76 | Password Hacking | Planned | Kattis | N/A
+77 | Perfect Pth Power | Planned | Kattis | N/A
+78 | Permutation Encryption | Completed | Kattis | C++
+79 | Permuted Arithmetic Sequence | Completed | Kattis | C++
+80 | Phone List | In Progress | Kattis | C++
+81 | Pig Latin | Completed | Kattis | C++, Java
+82 | Pizza Crust | Completed | Kattis | C++
+83 | Playfair Cipher | Completed | Kattis | C++
+84 | Popular Vote | In Progress | Kattis | C++
+85 | Power of 2 (Easy) | Completed | Kattis | C++
+86 | Primary Arithmetic | Completed | Kattis | C++
+87 | Printing Costs | Completed | Kattis | C++
+88 | Problem Classification | Completed | Kattis | C++
+89 | Quadrant Selection | Completed | Kattis | C++
+90 | Quick Brown Fox | Completed | Kattis | C++
+91 | Raid Teams | In Progress | Kattis | Java
+92 | Rational Arithmetic | Completed | Kattis | Java
+93 | Reduced ID Numbers | In Progress | Kattis | C++
+94 | Repeating Decimal | In Progress | Kattis | C++
+95 | Reverse | Completed | Kattis | C++
+96 | Reverse Binary Numbers | Completed | Kattis | C++
+97 | Roll Call | Completed | Kattis | C++
+98 | Saving Daylight | Completed | Kattis | C++
+99 | Saving Princess Peach | Completed | Kattis | C++
+100 | Self-Similar String | In Progress | Kattis | C++
+101 | Shiritori | Completed | Kattis | Java
+102 | Shopaholic | In Progress | Kattis | Java
+103 | Shopping List (Easy) | Completed | Kattis | C++
+104 | Shopping List | Completed | Kattis | C++
+105 | Simon Says | Completed | Kattis | C++
+106 | Simple Arithmetic | In Progress | Kattis | C++
+107 | Simplicity | In Progress | Kattis | C++
+108 | Smallest Multiple | In Progress | Kattis | C++, Java
+109 | Soft Passwords | Completed | Kattis | Java
+110 | Sort | Completed | Kattis | C++
+111 | Soylent | Completed | Kattis | C++
+112 | Speed Limit | Completed | Kattis | C++
+113 | Spelling Bee | Completed | Kattis | C++, Java
+114 | Sretan | In Progress | Kattis | C++
+115 | Symmetric Order | Completed | Kattis | C++
+116 | Synchronizing Lists | Completed | Kattis | C++
+117 | Texture Analysis | Completed | Kattis | C++
+118 | Thanos | Completed | Kattis | C++
+119 | The Key to Cryptography | Completed | Kattis | C++
+120 | The Last Problem | Completed | Kattis | C#
+121 | To Lower | Completed | Kattis | C++
+122 | Umm Code | In Progress | Kattis | C++
+123 | Un-bear-able Zoo | Completed | Kattis | C++
+124 | Variable Arithmetic | In Progress | Kattis | C++
+125 | Victory Through Synergy | In Progress | Kattis | C++
+126 | Watch Out For Those Hailstones! | Completed | Kattis | C++
+127 | Which Base Is It Anyway? | Completed | Kattis | C++
+128 | Word Cloud | Completed | Kattis | C++
+129 | Yoda | Completed | Kattis | C++
 
 ## Stats
 Language | Number of Problems
 --- | ---
-C++ | 108
+C++ | 110
 Java | 17
 C# | 1
 
 Source | Number of Problems
 --- | ---
-Kattis | 127
+Kattis | 129
 
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 36
+In Progress | 38
 Completed | 86
