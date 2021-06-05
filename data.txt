@@ -113,7 +113,7 @@ Not Amused | Completed | Kattis | C++
 Linden Mayor System | Completed | Kattis | C++
 Phone List | In Progress | Kattis | C++
 Jackpot | In Progress | Kattis | C++
-8 Queens | In Progress | Kattis | C++
+8 Queens | Completed | Kattis | C++
 Missing Number | Completed | Kattis | C++
 Victory Through Synergy | In Progress | Kattis | C++
 Anagram Counting | Completed | Kattis | Java

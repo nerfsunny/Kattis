@@ -5,7 +5,7 @@ This repository contains my attempt at solving programming problems I find onlin
 Number | Problem | Status | Source | Languages(s)
 --- | ------------ | ------------ | ------------ | ------------
 1 | 3D Printed Statues | Completed | Kattis | C++
-2 | 8 Queens | In Progress | Kattis | C++
+2 | 8 Queens | Completed | Kattis | C++
 3 | A + B | In Progress | Kattis | Java
 4 | A Different Problem | Completed | Kattis | C++
 5 | A Multiplication Game | Planned | Kattis | N/A
@@ -144,5 +144,5 @@ Kattis | 125
 Status | Number of Problems
 --- | ---
 Planned | 5
-In Progress | 37
-Completed | 83
+In Progress | 36
+Completed | 84
