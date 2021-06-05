@@ -1,0 +1,55 @@
+It is so difficult to keep everything in order! For this problem, you have two lists of numbers, each list having length 𝑛. Each number in one list has a corresponding number in the other list. The correspondence is that if both lists were in sorted and placed side by side, each pair of numbers would correspond. For example, in the lists (48,10,97) and (7,46,20), the corresponding numbers are 10 with 7, 48 with 20, and 97 with 46.
+
+You want to keep the lists synchronized, but you know that the second list has gotten out of order. So you want to put it in the same order as the first list, according to the correspondences.
+
+For example, given the two lists above, the second list should be reordered as (20,7,46) to be in order with the first list.
+
+Input
+
+Input consists at most 100 test cases. Each test case begins with an integer 1≤𝑛≤5000, followed by 2𝑛 lines. The first 𝑛 lines are the first list (which is in a fixed order), and the second 𝑛 lines are from the second list (which may be out of sync with the first list). All integers given in the lists are in the range [−10000,10000]. Input ends when 𝑛=0. No list contains duplicates.
+
+Output
+
+For each test case, print out the second list so that it has the same ordering as the first list. Print a blank line between lists.
+
+Sample Input 1          Sample Output 1
+4                       6
+10                      55
+67                      73
+68                      10
+28
+55                      68
+73                      24
+10                      39
+6                       32
+7                       1
+98                      47
+23                      15
+61
+49
+1
+79
+9
+1
+15
+32
+47
+68
+39
+24
+0
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/synchronizinglists
+
+Problem ID: synchronizinglists
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 1.5
