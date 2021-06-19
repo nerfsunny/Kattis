@@ -128,3 +128,4 @@ Synchronizing Lists | Completed | Kattis | C++
 Speed Limit | Completed | Kattis | C++
 Variable Arithmetic | In Progress | Kattis | C++
 Meow Factor | In Progress | Kattis | C++
+Babelfish | Completed | Kattis | C++
