@@ -1,3 +1,7 @@
+<style>
+H2{color:DarkOrange !important;}
+</style>
+
 ## Description
 This repository contains my attempt at solving programming problems I find online. Below is a table that contains the problem name, the status of the problem, where the problem was found and what language(s) it is completed in.
 
