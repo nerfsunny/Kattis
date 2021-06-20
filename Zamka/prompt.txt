@@ -1,0 +1,43 @@
+The impossible has happened. Bear G. has fallen into his own trap. Lured by a delicious box of Domaćica, without even thinking, he rushed and fell into his trap. In order to get out of the trap, he must solve the following task with your help. You are given three integers 𝐿, 𝐷 and 𝑋.
+	determine the minimal integer 𝑁 such that 𝐿≤𝑁≤𝐷 and the sum of its digits is 𝑋
+	determine the maximal integer 𝑀 such that 𝐿≤𝑀≤𝐷 and the sum of its digits is 𝑋
+
+Bear will be able to escape from the trap if he correctly determines numbers 𝑁 and 𝑀. The numbers 𝑁 and 𝑀 will always exist.
+
+Input
+
+The first line of input contains the integer 𝐿 (1≤𝐿≤10000), the number from the task. The second line of input contains the integer 𝐷 (1≤𝐷≤10000, 𝐿≤𝐷), the number from the task. The third line of input contains the integer 𝑋 (1≤𝑋≤36), the number from the task.
+
+Output
+
+The first line of output must contain the integer 𝑁 from the task. The second line of output must contain the integer 𝑀 from the task.
+
+Sample Input 1          Sample Output 1
+1                       4
+100                     40
+4
+
+Sample Input 2          Sample Output 2
+100                     129
+500                     480
+12
+
+Sample Output 3         Sample Output 3
+1                       1
+10000                   10000
+1
+
+
+
+
+
+Problem found on kattis.com
+https://open.kattis.com/problems/zamka
+
+Problem ID: zamka
+
+CPU Time limit: 1 second
+
+Memory limit: 1024 MB
+
+Difficulty: 1.4
