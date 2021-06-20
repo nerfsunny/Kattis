@@ -129,3 +129,5 @@ Speed Limit | Completed | Kattis | C++
 Variable Arithmetic | In Progress | Kattis | C++
 Meow Factor | In Progress | Kattis | C++
 Babelfish | Completed | Kattis | C++
+Zamka | Completed | Kattis | C++
+Bit by Bit | In Progress | Kattis | C++
